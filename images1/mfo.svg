@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+    <defs>
+        <style>
+            .cls-1{fill:#eaeaea;stroke:rgba(0,0,0,0)}.cls-2{fill:none}
+        </style>
+    </defs>
+    <g id="Group_757" data-name="Group 757" transform="translate(-191 -6509)">
+        <path id="Union_7" d="M10.333 102.741V88.457H0V74.169h10.333V0H52.7a45.126 45.126 0 0 1 14.761 2.284 32.421 32.421 0 0 1 11.366 6.57 29.108 29.108 0 0 1 7.307 10.41 35.179 35.179 0 0 1 2.584 13.8 29.519 29.519 0 0 1-2.807 12.844 31.722 31.722 0 0 1-7.6 10.183 35.443 35.443 0 0 1-11.293 6.72 39.155 39.155 0 0 1-13.872 2.434H33.064v8.923h14.555v14.289H33.064v14.284zm22.731-57.865h19.042a14.511 14.511 0 0 0 9.6-3.321 11.032 11.032 0 0 0 3.986-8.931q0-6.2-3.69-9.227T51.519 20.37H33.064z" class="cls-1" data-name="Union 7" transform="translate(248.145 6549.116)"/>
+        <g id="Group_731" data-name="Group 731" transform="translate(191 6509)">
+            <path id="Rectangle_674" d="M0 0h200v200H0z" class="cls-2" data-name="Rectangle 674"/>
+        </g>
+    </g>
+</svg>

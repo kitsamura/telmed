@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="151" viewBox="0 0 104 151">
+    <defs>
+        <style>
+            .cls-1{fill:#f6f0f7;stroke:#fff;stroke-width:8px}.cls-2{fill:#fff}.cls-3{fill:#b47eb9}.cls-4{stroke:none}.cls-5{fill:none}
+        </style>
+    </defs>
+    <g id="Group_703" data-name="Group 703" transform="translate(-335 -2920)">
+        <g id="Rectangle_623" class="cls-1" data-name="Rectangle 623" transform="translate(343 2928)">
+            <rect width="88" height="135" class="cls-4" rx="8"/>
+            <rect width="96" height="143" x="-4" y="-4" class="cls-5" rx="12"/>
+        </g>
+        <rect id="Rectangle_624" width="64" height="18" class="cls-2" data-name="Rectangle 624" rx="9" transform="translate(355 2943)"/>
+        <rect id="Rectangle_625" width="12" height="12" class="cls-3" data-name="Rectangle 625" rx="6" transform="translate(356 2976)"/>
+        <rect id="Rectangle_628" width="12" height="12" class="cls-3" data-name="Rectangle 628" rx="6" transform="translate(356 2996)"/>
+        <rect id="Rectangle_630" width="12" height="12" class="cls-3" data-name="Rectangle 630" rx="6" transform="translate(356 3016)"/>
+        <rect id="Rectangle_626" width="43" height="12" class="cls-2" data-name="Rectangle 626" rx="6" transform="translate(376 2976)"/>
+        <rect id="Rectangle_627" width="43" height="12" class="cls-2" data-name="Rectangle 627" rx="6" transform="translate(376 2996)"/>
+        <rect id="Rectangle_629" width="43" height="12" class="cls-2" data-name="Rectangle 629" rx="6" transform="translate(376 3016)"/>
+    </g>
+</svg>

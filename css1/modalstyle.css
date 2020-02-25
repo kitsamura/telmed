@@ -1,0 +1,67 @@
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+main {
+    background: none;  
+    /* -webkit-filter: blur(5px);
+  filter: blur(5px); */
+}
+
+.onlyDoctor {
+    margin-top: 30px;
+    margin-left: 162px;
+    margin-right: 162px;
+    background:#ffffff;
+    box-shadow: 0 3px 24px 0 rgba(0, 0, 0, 0.1);
+    padding: 42px;
+    border-radius:20px;
+
+}
+
+.infoDoctor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.photoDoctor img {
+    width: 296px;
+    height: 296px;
+    margin-right: 32px;
+    border-radius: 4px;
+}
+
+.textDoctor {
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    text-align: left;
+
+}
+
+.lightInfoDoctor h6{
+ font-size: 16;
+ line-height: 22px;
+ text-align: left;
+ color: #383838;
+ 
+}
+
+.lightInfoDoctor {
+    font-size: 24px;
+    line-height: 34px;
+    color: #383838;
+    text-align: left;
+}
+
+.closeModal {
+    font-size: 30px;
+    color: #707070;
+    position: absolute;
+    top: 114px;
+    right: 187px;
+}

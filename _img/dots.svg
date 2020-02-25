@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 16">
+    <defs>
+        <style>
+            .cls-1{fill:#9a9a9a}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Symbol_2_15" data-name="Symbol 2 – 15" transform="translate(-377 -4933)">
+        <rect id="Rectangle_161" width="38" height="16" class="cls-1" data-name="Rectangle 161" rx="8" transform="translate(377 4933)"/>
+        <circle id="Ellipse_32" cx="3" cy="3" r="3" class="cls-2" data-name="Ellipse 32" transform="translate(383 4938)"/>
+        <circle id="Ellipse_33" cx="3" cy="3" r="3" class="cls-2" data-name="Ellipse 33" transform="translate(393 4938)"/>
+        <circle id="Ellipse_34" cx="3" cy="3" r="3" class="cls-2" data-name="Ellipse 34" transform="translate(403 4938)"/>
+    </g>
+</svg>

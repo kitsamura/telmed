@@ -1,0 +1,23 @@
+// Variables
+$line-height-base:                             1.428571429 !default; // 20/14
+$zindex-modal-background:                      1040 !default;
+$zindex-modal:                                 1050 !default;
+$modal-content-bg:                             #fff !default;
+$modal-content-fallback-border-color:          #999 !default;
+$modal-content-border-color:                   rgba(0,0,0,.2) !default;
+$border-radius-large:                          6px !default;;
+$zindex-modal-background:                      1040 !default;
+$modal-backdrop-bg:                            #000 !default;
+$modal-backdrop-opacity:                       .5 !default;
+$modal-title-padding:                          15px !default;
+$modal-header-border-color:                    #e5e5e5 !default;
+$modal-footer-border-color:                    $modal-header-border-color !default;
+$modal-title-line-height:                      $line-height-base !default;
+$modal-inner-padding:                          15px !default;
+$modal-lg:                                     900px !default;
+$modal-md:                                     600px !default;
+$modal-sm:                                     300px !default;
+$screen-sm:                                    768px !default;
+$screen-sm-min:                                $screen-sm !default;
+$screen-md:                                    992px !default;
+$screen-md-min:                                $screen-md !default;

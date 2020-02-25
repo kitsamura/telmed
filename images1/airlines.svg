@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#eaeaea}
+        </style>
+    </defs>
+    <g id="Group_762" data-name="Group 762" transform="translate(-647 -6467)">
+        <g id="Group_727" data-name="Group 727" transform="translate(647 6467)">
+            <path id="Rectangle_674" d="M0 0h200v200H0z" class="cls-1" data-name="Rectangle 674"/>
+        </g>
+        <path id="Union_6" d="M65.141 110.206V78.063H18.979c-3.652 12.824-6.952 15.8-10.924 15.8A8.2 8.2 0 0 1 0 85.526V43.861a8.312 8.312 0 0 1 8.056-8.333c3.734.028 7.277 3.185 10.809 14.987h46.276V18.369C65.141 8.225 71.371-.07 78.307 0c6.917.072 13.435 14.965 19.978 50.51h22.06a13.776 13.776 0 0 1 0 27.552h-22v.8c-6.867 37.762-12.762 49.714-20.034 49.714s-13.17-8.226-13.17-18.37z" class="cls-2" data-name="Union 6" transform="rotate(-30 12543.124 2051.164)"/>
+    </g>
+</svg>

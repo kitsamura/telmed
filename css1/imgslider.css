@@ -1,0 +1,50 @@
+.slider{
+	width: 100%;
+	height: auto;
+	padding: 0;
+	position: relative;
+}
+
+.slider .right.image{
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+
+}
+
+.slider .left.image{
+	position: relative;
+	z-index: 2;
+
+	margin-right:-5px;
+	overflow: hidden;
+}
+
+.slider .instruction{
+	position: absolute;
+	top:50%;
+	z-index:1000;
+	height:55px;
+	margin-left:-15px;
+	width:100%;
+		background:url('../images/arrowright.svg') no-repeat;
+}
+
+.slider .instruction p{
+	
+	display: inline;
+	padding: 1%;
+	width:50px;
+	height:50px;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.instuction p {
+	height:50px;
+}
+@media (max-width:1140px) {
+.instruction {
+	display:none;
+}
+}

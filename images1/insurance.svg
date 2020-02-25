@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#eaeaea}
+        </style>
+    </defs>
+    <g id="Group_758" data-name="Group 758" transform="translate(-191 -6469)">
+        <path id="Rectangle_674" d="M0 0h200v200H0z" class="cls-1" data-name="Rectangle 674" transform="translate(191 6469)"/>
+        <path id="Subtraction_10" d="M57.572 123.809c-.145-.079-14.637-8.094-28.784-24.684A120.1 120.1 0 0 1 8.995 66.847 122.536 122.536 0 0 1 0 20.017L57.572 0l56.714 20.017a120.243 120.243 0 0 1-8.862 45.726 125.869 125.869 0 0 1-19.5 32.4C72 115.049 57.717 123.722 57.574 123.808zm-.221-96.732l-28.215 9.814a60.03 60.03 0 0 0 4.409 22.948 58.828 58.828 0 0 0 9.7 15.817 56.648 56.648 0 0 0 14.107 12.1 60.76 60.76 0 0 0 13.9-12.578A61.727 61.727 0 0 0 80.8 59.3a58.909 58.909 0 0 0 4.343-22.408l-27.792-9.815z" class="cls-2" data-name="Subtraction 10" transform="translate(233.858 6507.097)"/>
+    </g>
+</svg>

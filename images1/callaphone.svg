@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.385 246.397">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2,.cls-3{fill:#f7f7f7}.cls-2{stroke:#f4f4f4}.cls-3{stroke:#ededed}.cls-4{fill:none}.cls-5{fill:#ddd}.cls-6{stroke:none}.cls-7{filter:url(#Rectangle_150)}
+        </style>
+        <filter id="Rectangle_150" width="205.385" height="246.397" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="10.5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_346" data-name="Group 346" transform="translate(-407.307 -3893.802)">
+        <g class="cls-7" transform="translate(407.31 3893.8)">
+            <rect id="Rectangle_150-2" width="162" height="104" class="cls-1" data-name="Rectangle 150" rx="8" transform="rotate(75 47.207 99.821)"/>
+        </g>
+        <g id="Rectangle_151" class="cls-2" data-name="Rectangle 151" transform="rotate(74.99 -2293.116 2313.39)">
+            <rect width="133" height="93" class="cls-6" rx="8"/>
+            <rect width="132" height="92" x=".5" y=".5" class="cls-4" rx="7.5"/>
+        </g>
+        <g id="Ellipse_26" class="cls-3" data-name="Ellipse 26" transform="translate(522 4073)">
+            <circle cx="7.5" cy="7.5" r="7.5" class="cls-6"/>
+            <circle cx="7.5" cy="7.5" r="7" class="cls-4"/>
+        </g>
+        <g id="round-phone-24px" transform="translate(487 3983)">
+            <g id="Bounding_Boxes">
+                <path id="Path_814" d="M0 0h47v47H0z" class="cls-4" data-name="Path 814"/>
+            </g>
+            <g id="Rounded_1_" transform="translate(5.927 5.895)">
+                <path id="Path_815" d="M34.759 27l-4.974-.568a3.9 3.9 0 0 0-3.212 1.116l-3.6 3.6a29.464 29.464 0 0 1-12.909-12.902l3.623-3.623a3.9 3.9 0 0 0 1.113-3.212l-.568-4.935a3.919 3.919 0 0 0-3.9-3.466H6.95a3.886 3.886 0 0 0-3.916 4.054 33.275 33.275 0 0 0 31.117 31.118 3.886 3.886 0 0 0 4.054-3.917v-3.388A3.881 3.881 0 0 0 34.759 27z" class="cls-5" data-name="Path 815" transform="translate(-3.026 -3.01)"/>
+            </g>
+        </g>
+    </g>
+</svg>

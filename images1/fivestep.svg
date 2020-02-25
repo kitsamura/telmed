@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134.402" height="138.472" viewBox="0 0 134.402 138.472">
+    <defs>
+        <style>
+            .cls-1{fill:#f6f0f7;stroke:#fff;stroke-width:8px}.cls-2,.cls-6{fill:#fff}.cls-3{fill:#b47eb9;stroke-linejoin:round}.cls-4,.cls-6{stroke:none}.cls-5{fill:none}
+        </style>
+    </defs>
+    <g id="Group_710" data-name="Group 710" transform="translate(-318 -3532)">
+        <g id="Group_709" data-name="Group 709" transform="translate(-17 590)">
+            <g id="Rectangle_623" class="cls-1" data-name="Rectangle 623" transform="translate(343 2991)">
+                <rect width="68" height="72" class="cls-4" rx="8"/>
+                <rect width="76" height="80" x="-4" y="-4" class="cls-5" rx="12"/>
+            </g>
+            <g id="Rectangle_626" class="cls-1" data-name="Rectangle 626" transform="translate(352 2950)">
+                <rect width="50" height="30" class="cls-4" rx="8"/>
+                <rect width="58" height="38" x="-4" y="-4" class="cls-5" rx="12"/>
+            </g>
+            <rect id="Rectangle_627" width="43" height="12" class="cls-2" data-name="Rectangle 627" rx="6" transform="translate(355 3012)"/>
+            <rect id="Rectangle_629" width="43" height="12" class="cls-2" data-name="Rectangle 629" rx="6" transform="translate(355 3032)"/>
+        </g>
+        <g id="Subtraction_9" class="cls-3" data-name="Subtraction 9">
+            <path d="M-1311.166 50.997l-.001-2.412V1.053l2.33.389a25.041 25.041 0 0 1 14.85 8.389 24.791 24.791 0 0 1 4.393 7.401A24.728 24.728 0 0 1-1288 26c0 3.017-.536 5.967-1.594 8.768a24.79 24.79 0 0 1-4.392 7.401 25.04 25.04 0 0 1-14.83 8.385l-2.35.443zm-3.667-.412h-4.002v-.367a25.059 25.059 0 0 1-13.178-8.05 24.793 24.793 0 0 1-4.393-7.4A24.722 24.722 0 0 1-1338 26c0-3.017.537-5.967 1.594-8.767a24.798 24.798 0 0 1 4.392-7.402 25.044 25.044 0 0 1 14.85-8.39l2.33-.388V50.585z" class="cls-4" transform="rotate(45 -4802.327 3913.673)"/>
+            <path d="M-1309.167 48.585a23.038 23.038 0 0 0 13.663-7.718c1.74-2.03 3.1-4.32 4.039-6.806a22.734 22.734 0 0 0 1.465-8.06 22.736 22.736 0 0 0-5.504-14.868 23.038 23.038 0 0 0-13.663-7.719v45.171m-7.666 0V3.415a23.04 23.04 0 0 0-13.662 7.719A22.73 22.73 0 0 0-1336 26c0 2.774.492 5.486 1.464 8.06a22.8 22.8 0 0 0 4.04 6.805 23.037 23.037 0 0 0 13.66 7.718v.001h.002m7.667 4A4 4 0 0 1-1313 49.73a4.002 4.002 0 0 1-3.833 2.855h-.002c-.268 0-.53-.026-.782-.076a27.044 27.044 0 0 1-15.914-9.038 26.787 26.787 0 0 1-4.745-7.997A26.713 26.713 0 0 1-1340 26c0-3.26.58-6.447 1.724-9.474a26.79 26.79 0 0 1 4.745-7.997 27.047 27.047 0 0 1 16.038-9.06A4 4 0 0 1-1313 2.272a4 4 0 0 1 4.492-2.803 27.045 27.045 0 0 1 16.04 9.06 26.784 26.784 0 0 1 4.745 7.997A26.721 26.721 0 0 1-1286 26c0 3.26-.58 6.447-1.723 9.474a26.787 26.787 0 0 1-4.745 7.997 27.045 27.045 0 0 1-16.04 9.06c-.218.036-.439.054-.658.054z" class="cls-6" transform="rotate(45 -4802.327 3913.673)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 167">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2,.cls-3{fill:#6f6f6f;font-size:18px;font-family:PFDinTextPro-Regular,PF DinText Pro}.cls-3{fill:#9a9a9a;font-size:12px}.cls-4,.cls-5{fill:#b47eb9}.cls-4{opacity:.47}.cls-6{filter:url(#Rectangle_149)}
+        </style>
+        <filter id="Rectangle_149" width="225" height="167" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="10.5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_345" data-name="Group 345" transform="translate(-144.5 -3938.5)">
+        <g class="cls-6" transform="translate(144.5 3938.5)">
+            <rect id="Rectangle_149-2" width="162" height="104" class="cls-1" data-name="Rectangle 149" rx="8" transform="translate(31.5 28.5)"/>
+        </g>
+        <text id="ТелеМед" class="cls-2" transform="translate(193 4030)">
+            <tspan x="0" y="0">ТелеМед</tspan>
+        </text>
+        <text id="_0000_0000_01" class="cls-3" data-name="0000 0000 01" transform="translate(193 4054)">
+            <tspan x="0" y="0">0000 0000 01</tspan>
+        </text>
+        <g id="Group_333" data-name="Group 333" transform="translate(193 3982.797)">
+            <path id="Path_741" d="M30.748 27.146A1.944 1.944 0 0 1 28.8 29.09h-7.234l-2.537 2.01v-2h-.819a1.944 1.944 0 0 1-1.938-1.956V16.57a1.944 1.944 0 0 1 1.944-1.944h4.518V13.22H18.21a3.356 3.356 0 0 0-3.35 3.35v10.576a3.356 3.356 0 0 0 2.763 3.3v3.57l4.438-3.516h6.724a3.356 3.356 0 0 0 3.368-3.35z" class="cls-4" data-name="Path 741" transform="translate(-14.86 -10.494)"/>
+            <path id="Path_742" d="M30.69 18.541a.7.7 0 0 0 .691-.611l1.223-2.7 1.278 2.9 1.938 4.279a.7.7 0 0 0 .642.41h.055a.7.7 0 0 0 .611-.41l1.754-3.87h3.552a.7.7 0 0 0 .611-.7V12.11a3.356 3.356 0 0 0-3.35-3.35H29.18a3.356 3.356 0 0 0-3.35 3.35v2.506a.7.7 0 0 0 1.406 0V12.11a1.944 1.944 0 0 1 1.944-1.944h10.588a1.944 1.944 0 0 1 1.944 1.944v5.019h-3.258a.7.7 0 0 0-.691.611L36.54 20.5l-1.327-2.928-1.937-4.272v-.037l-.092-.073-.043-.055-.049-.055-.049-.043-.055-.043-.061-.037h-.611l-.055.031-.055.043-.049.043-.049.055-.061.061-.037.067v.037l-1.8 3.845h-3.665a.7.7 0 0 0-.7.7v4.89a3.356 3.356 0 0 0 3.338 3.295H35.9l4.456 3.546v-3.547a3.356 3.356 0 0 0 2.763-3.3v-1.774a.7.7 0 0 0-1.406 0v1.773a1.944 1.944 0 0 1-1.944 1.944h-.825v1.968l-2.537-2.011H29.18a1.944 1.944 0 0 1-1.944-1.944v-4.156z" class="cls-5" data-name="Path 742" transform="translate(-19.124 -8.76)"/>
+        </g>
+    </g>
+</svg>

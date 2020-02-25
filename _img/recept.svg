@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #b47eb9;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #b47eb9;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_319" data-name="Group 319" transform="translate(-245 -509)">
+    <g id="Ellipse_19" data-name="Ellipse 19" class="cls-1" transform="translate(245 509)">
+      <circle class="cls-5" cx="12" cy="12" r="12"/>
+      <circle class="cls-6" cx="12" cy="12" r="11"/>
+    </g>
+    <g id="Group_317" data-name="Group 317" transform="translate(250.119 512.265)">
+      <g id="Group_316" data-name="Group 316" transform="translate(0 0)">
+        <g id="Rectangle_142" data-name="Rectangle 142" class="cls-2" transform="matrix(0.899, -0.438, 0.438, 0.899, 0, 3.078)">
+          <rect class="cls-5" width="7.022" height="15.321" rx="3.511"/>
+          <rect class="cls-6" x="1" y="1" width="5.022" height="13.321" rx="2.511"/>
+        </g>
+        <line id="Line_20" data-name="Line 20" class="cls-3" x2="6.384" transform="matrix(0.899, -0.438, 0.438, 0.899, 3.505, 9.536)"/>
+      </g>
+      <path id="Path_769" data-name="Path 769" class="cls-4" d="M1914.9,7669.218l5.383-2.543,1.991,5.588-1.687,2.085-2.514-.135-1.907-2.789Z" transform="translate(-1911.232 -7659.734)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 672.585 566.356">
+    <defs>
+        <style>
+            .cls-1{fill:url(#radial-gradient)}.cls-2,.cls-3,.cls-4{fill:#fff}.cls-2{opacity:.47}.cls-4{font-size:24px;font-family:OCRAStd,OCR A Std;opacity:.698}.cls-5{fill:none;stroke:#fff;stroke-linecap:round}.cls-6{filter:url(#_01_2030)}.cls-7{filter:url(#_0123_4567)}.cls-8{filter:url(#Path_1119)}
+        </style>
+        <radialGradient id="radial-gradient" cx="1" cy="0" r="1.168" gradientTransform="matrix(-.345 .856 -.38 -.345 1.345 -.856)">
+            <stop offset="0" stop-color="#b47eb9"/>
+            <stop offset="1" stop-color="#804586"/>
+        </radialGradient>
+        <filter id="Path_1119" width="672.585" height="566.356" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dx="-22" dy="22"/>
+            <feGaussianBlur result="blur" stdDeviation="20"/>
+            <feFlood flood-opacity=".275"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="_0123_4567" width="157.2" height="68.562" x="199.826" y="353.945" filterUnits="userSpaceOnUse">
+            <feOffset dx="1"/>
+            <feGaussianBlur result="blur-2"/>
+            <feFlood flood-opacity=".502"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="_01_2030" width="123.73" height="59.329" x="451.334" y="287.285" filterUnits="userSpaceOnUse">
+            <feOffset dx="1" dy="1"/>
+            <feGaussianBlur result="blur-3"/>
+            <feFlood flood-opacity=".502"/>
+            <feComposite in2="blur-3" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_734" data-name="Group 734" transform="rotate(-17 -73.296 550.417)">
+        <g class="cls-8" transform="matrix(.96 .29 -.29 .96 157.72 45.48)">
+            <path id="Path_1119-2" d="M19 0h442a19 19 0 0 1 19 19v282a19 19 0 0 1-19 19H19a19 19 0 0 1-19-19V19A19 19 0 0 1 19 0z" class="cls-1" data-name="Path 1119" transform="rotate(-17 637.65 -185.167)"/>
+        </g>
+        <g id="Group_733" data-name="Group 733" transform="translate(92 241)">
+            <g id="Group_286" data-name="Group 286" transform="translate(140 47.79)">
+                <path id="Path_741" d="M56.012 49.29a5.035 5.035 0 0 1-5.035 5.035H32.23l-6.571 5.209v-5.177h-2.122a5.035 5.035 0 0 1-5.019-5.067V21.9a5.035 5.035 0 0 1 5.035-5.035h11.7V13.22H23.537a8.693 8.693 0 0 0-8.677 8.68v27.39a8.693 8.693 0 0 0 7.157 8.55v9.247l11.5-9.12H50.93a8.693 8.693 0 0 0 8.724-8.677z" class="cls-2" data-name="Path 741" transform="translate(-14.86 -6.158)"/>
+                <path id="Path_742" d="M38.418 34.094a1.821 1.821 0 0 0 1.789-1.583l3.167-6.983 3.309 7.505L51.7 44.117a1.821 1.821 0 0 0 1.663 1.061h.143a1.821 1.821 0 0 0 1.583-1.061l4.544-10.023h9.2a1.821 1.821 0 0 0 1.583-1.805V17.437a8.693 8.693 0 0 0-8.675-8.677H34.507a8.693 8.693 0 0 0-8.677 8.677v6.492a1.821 1.821 0 1 0 3.642 0v-6.492a5.035 5.035 0 0 1 5.035-5.037h27.424a5.035 5.035 0 0 1 5.035 5.035v13h-8.439a1.821 1.821 0 0 0-1.789 1.583l-3.167 7.157-3.436-7.584-5.019-11.082v-.1l-.238-.19-.111-.143-.127-.143-.127-.111-.143-.111-.158-.1H42.63l-.143.079-.143.111-.127.111-.127.143-.158.158-.1.174v.095l-4.655 9.96h-9.5a1.821 1.821 0 0 0-1.821 1.821V44.94a8.693 8.693 0 0 0 8.645 8.534h17.423l11.543 9.184v-9.183a8.693 8.693 0 0 0 7.157-8.55v-4.592a1.821 1.821 0 0 0-3.642 0v4.592a5.035 5.035 0 0 1-5.035 5.035H59.81v5.1l-6.571-5.209H34.507a5.035 5.035 0 0 1-5.035-5.035V34.047z" class="cls-3" data-name="Path 742" transform="translate(-8.46 -8.76)"/>
+            </g>
+            <g id="Group_285" data-name="Group 285" transform="translate(222.244 62.273)">
+                <path id="Path_743" d="M73.5 7.09H53.28V10h8.434v23.276h3.319V10H73.5z" class="cls-3" data-name="Path 743" transform="translate(-53.28 -7.09)"/>
+                <path id="Path_744" d="M90.88 20.27a9.651 9.651 0 0 0-9.506 10.144c0 6.029 4.116 10.144 9.825 10.144a10.477 10.477 0 0 0 7.666-2.9L97.416 35.7a8.434 8.434 0 0 1-5.956 2.435 6.8 6.8 0 0 1-6.96-6.663h15.651v-.754c.004-5.898-3.372-10.448-9.271-10.448zm-6.347 8.912a6.434 6.434 0 0 1 6.3-6.405 6.26 6.26 0 0 1 6.347 6.434z" class="cls-3" data-name="Path 744" transform="translate(-62.202 -13.865)"/>
+                <path id="Path_745" d="M99.551 30.107c-.754 5.71-1.884 7.8-3.681 7.8v2.478c3.724 0 5.8-2.71 6.666-9.912l.884-7.246h7.8v16.661h3V20.6H100.8z" class="cls-3" data-name="Path 745" transform="translate(-55.685 -13.716)"/>
+                <path id="Path_746" d="M121.16 20.27a9.652 9.652 0 0 0-9.507 10.144c0 6.029 4.116 10.144 9.825 10.144a10.477 10.477 0 0 0 7.666-2.9L127.7 35.7a8.434 8.434 0 0 1-5.956 2.435 6.8 6.8 0 0 1-6.956-6.666h15.622v-.754c.025-5.895-3.41-10.445-9.25-10.445zm-6.347 8.912a6.449 6.449 0 0 1 6.3-6.405 6.26 6.26 0 0 1 6.347 6.434z" class="cls-3" data-name="Path 746" transform="translate(-48.601 -13.865)"/>
+                <path id="Path_747" d="M125.768 26.494l-7.7-19.4h-4.748v26.182h3.492V12.727l8.217 20.549h1.464l8.159-20.549v20.549h3.493V7.09h-4.8z" class="cls-3" data-name="Path 747" transform="translate(-26.312 -7.09)"/>
+                <path id="Path_748" d="M157.79 20.27a9.651 9.651 0 0 0-9.507 10.144c0 6.029 4.116 10.144 9.825 10.144a10.492 10.492 0 0 0 7.666-2.9l-1.448-1.958a8.434 8.434 0 0 1-5.956 2.435 6.8 6.8 0 0 1-6.956-6.666h15.622v-.754c.029-5.895-3.405-10.445-9.246-10.445zm-6.347 8.912a6.434 6.434 0 0 1 6.318-6.405 6.26 6.26 0 0 1 6.347 6.434z" class="cls-3" data-name="Path 748" transform="translate(-32.148 -13.865)"/>
+                <path id="Path_749" d="M181.126 37.265V20.6h-13.433l-1.232 9.506c-.754 5.71-1.884 7-3.681 7.246v7.391h3V39.9h14.579v4.913h3.029v-7.55zm-3 0h-11.462c1.449-1.116 2.319-3.159 2.8-6.8l.884-7.246h7.8z" class="cls-3" data-name="Path 749" transform="translate(-25.631 -13.716)"/>
+            </g>
+        </g>
+        <g class="cls-7" transform="matrix(.96 .29 -.29 .96 157.72 45.48)">
+            <text id="_0123_4567-2" class="cls-4" data-name="0123 4567" transform="rotate(-17 1500.238 -478.25)">
+                <tspan x="0" y="0">0123 4567</tspan>
+            </text>
+        </g>
+        <g class="cls-6" transform="matrix(.96 .29 -.29 .96 157.72 45.48)">
+            <text id="_01_2030-2" class="cls-4" data-name="01/2030" transform="rotate(-17 1368.718 -1358.146)">
+                <tspan x="0" y="0">01/2030</tspan>
+            </text>
+        </g>
+        <path id="Line_133" d="M0 0h71" class="cls-5" data-name="Line 133" transform="translate(232.5 464.5)"/>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_close_black_24px" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:#9a9a9a}.cls-2{fill:none}
+        </style>
+    </defs>
+    <path id="Path_893" d="M23.667 6.88L21.787 5l-7.453 7.453L6.88 5 5 6.88l7.453 7.453L5 21.787l1.88 1.88 7.453-7.453 7.453 7.453 1.88-1.88-7.453-7.453z" class="cls-1" data-name="Path 893" transform="translate(1.667 1.667)"/>
+    <path id="Path_894" d="M0 0h32v32H0z" class="cls-2" data-name="Path 894"/>
+</svg>

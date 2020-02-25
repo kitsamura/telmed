@@ -1,0 +1,2569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>ТелеМед - Сервис личного врача</title>
+    <link rel="stylesheet" href="css1/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css" />
+    <link rel="stylesheet" href="css1/imgslider.css">
+    <link rel="stylesheet" href="css1/swiper.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/ico">
+    <link rel="stylesheet" href="css1/media.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700|Source+Sans+Pro:300,400,600,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js1/lottie.js"></script>
+    <script src="js1/script.js"></script>
+    <script src="js1/carousel-arrows.js"></script>
+
+    <script src="js1/swiper.min.js"></script>
+    <script src="js1/imgslider.js"></script>
+    <script src="js1/maskinput.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function ()
+
+            {
+                (m[i].a = m[i].a || []).push(arguments)
+            }
+
+            ;
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode
+                .insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(41511959, "init",
+
+            {
+                clickmap: true,
+                trackLinks: true,
+                accurateTrackBounce: true,
+                webvisor: true,
+                trackHash: true
+            }
+
+        );
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/41511959" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
+    <div class="mobileMenu">
+        <div class="menuClose">
+            <div class="mobileLogo"> <img src="images1/logomob.svg"></div>
+            <div class="mobileClose"> <img src="images1/closemob.svg"></div>
+        </div>
+        <div class="mobileMenuItems">
+            <div class="mobileItems"> <a href="#headerspan" class="nav-link mobileItem scrollTo">О Телемед</a></div>
+            <div class="mobileItems"> <a href="#whenyoucallme" class="nav-link mobileItem scrollTo">Услуги</a></div>
+            <div class="mobileItems"> <a href="#doctors" class="nav-link mobileItem scrollTo">Наши врачи</a></div>
+            <div class="mobileItems"> <a href="#newblog" class="nav-link mobileItem scrollTo">Блог</a></div>
+            <div class="mobileItems"> <a href="#recalls" class="nav-link mobileItem scrollTo">Отзывы</a></div>
+            <div class="mobileItems"> <a href="#partners" class="nav-link mobileItem scrollTo">Партнерам</a></div>
+        </div>
+        <div class="mobileMenuItemsTwo">
+            <div class="mobileItems lkMen"> <a href="https://telmed24.ru/lktelmed">Личный Кабинет</a></div>
+            <div class="mobileItems lkPhone"> <a href="#callback" id="mobileItem" class="scrollTo">Позвонить</a></div>
+        </div>
+    </div>
+
+    <div class="siteWrapper">
+
+
+        <div class="supreme-container">
+            <section id="nav__menu">
+                <div class="container">
+                    <div class="imgLogo">
+                        <img src="images1/logo.svg" height="45px" alt="">
+                    </div>
+                    <div class="imgLogoMob">
+                        <img src="images1/logomob.svg" height="45px" alt="">
+                    </div>
+                    <div class="modalArrow">
+                        <img src="images1/arrownext.svg" alt="">
+                    </div>
+                    <div class="nav__buttons">
+                        <div id="callmodal" class=" animated fadeInDown">
+                            <span><img src="images1/callmemobile.svg" alt="">Позвонить</span>
+                            <br>
+                            <a href="tel:84992162498">+7 (499) 216-24-98</a>
+                            <p>
+                                для звонков из Москвы
+                            </p>
+                            <a href="tel:88007752498">8 (800) 775-24-98</a>
+                            <p>
+                                бесплатно по всей России
+                            </p>
+                            <p>
+                                <a href="#callback" class="scrollTo">
+                                    <input class="type scrollTo" href="" type="submit" href="callback" value="НАПИСАТЬ">
+                                </a>
+                            </p>
+                            <p class="withform">через форму обратной связи</p>
+                        </div>
+                        <button id="callme">
+                            <img src="images1/callmemobile.svg" alt=""><span>Позвонить</span>
+                        </button>
+                    </div>
+                    <a href="https://telmed24.ru/lktelmed" id="activateMe">
+                        Активировать сертификат
+                    </a>
+
+
+
+                    <div class="lk__wrapper">
+                        <button id="lk" onclick="yaCounter41511959.reachGoal('l_kabinet'); return true;">
+                            <img src="images1/lk.svg" alt=""> <a href="https://telmed24.ru/lktelmed"><span>Личный
+                                    кабинет</span></a>
+                        </button>
+
+                    </div>
+                    <div class="imgBurger">
+                        <img src="images1/burger.svg" height="42px" alt="">
+                    </div>
+                </div>
+        </div>
+        </section>
+        <section id="navbar" class="">
+            <div class="container  ">
+                <ul class="navbar-nav">
+                    <li class="nav-item nav-item__first"> <a class="nav-link scrollTo" href="#headerspan">О
+                            ТелеМед</a>
+                        <ul class="block__about">
+                            <li class="company "> <a href="#aboutulfirst" class="scrollTo">Преимущества</a>
+                            </li>
+                            <li class="achievement"> <a href="#aboutulfirst__two" class="scrollTo"> Достижения</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link scrollTo changea" href="#whenyoucallme">Услуги</a>
+                       
+                    </li>
+
+
+                    <li class="nav-item"> <a class="nav-link scrollTo" href="#doctors">Врачи</a>
+                       
+                    </li>
+                    <li class="nav-item"> <a class="nav-link scrollTo" href="#newblog">Блог</a>
+                       
+                    </li>
+                    <li class="nav-item"> <a class="nav-link scrollTo" href="#recalls">Отзывы</a>
+                       
+                    </li>
+                    <li class="nav-item"> <a class="nav-link scrollTo" href="#partners">Партнерам</a>
+                        <ul class="block__about">
+                            <li class="company"> <a href="#question__header" class="scrollTo">Наши партнеры</a>
+                            </li>
+                            <li class="achievement"> <a href="#partnersCoopiration" class="scrollTo">Сотрудничество</a>
+                            </li>
+                            <li class="achievement"> <a href="#partnersOurPluses" class="scrollTo">Наши
+                                    преимущества</a> </li>
+                            <li class="achievement"> <a href="#partnersBecome" class="scrollTo">Стать партнером</a>
+                            </li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link scrollTo" href="#callback">Контакты</a>
+                        <ul class="block__about">
+                            <li class="company"> <a href="#callback" class="scrollTo">Написать</a> </li>
+                            <li class="achievement"> <a id="contactsModal" href="#callmodal">Позвонить</a> </li>
+                        </ul>
+                    </li>
+            </div>
+        </section>
+        <section class="main" id="main">
+            <div class="owl-carousel-slider">
+                <div class="slick__item">
+                    <div class="slick__wrapper slick__wrapper_1">
+                        <div class="slick__content">
+                            <div class="slick__container">
+                                <h3 class="slick__text">
+                                    Не спрашивайте интернет – спросите доктора
+                                </h3>
+                                <span class="slick__subtitle">
+                                    24/7 по телефону, в приложении, в чат-боте
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick__item">
+                    <div class="slick__wrapper slick__wrapper_2">
+                        <div class="slick__content">
+                            <div class="slick__container">
+                                <h3 class="slick__text">
+                                    24 часа 7 дней в неделю 365 дней в году </h3>
+                                <span class="slick__subtitle">
+                                    Без праздников, перерывов на обед или предварительной записи </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick__item">
+                    <div class="slick__wrapper slick__wrapper_3">
+                        <div class="slick__content">
+                            <div class="slick__container">
+                                <h3 class="slick__text">
+                                    В любое время. В любой точке мира </h3>
+                                <span class="slick__subtitle">
+                                    Позаботьтесь о своем здоровье и здоровье своих близких </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section id="about">
+            <div class="container">
+
+
+                <div class="news">
+
+
+                    <div class="headerspan" id="headerspan">Новости и статьи</div>
+                    <div class="owl-carousel-news">
+                        <div class="item">
+                            <div class="news__item">
+                                <div class="news__icon">
+
+                                    <img src="images1/new_one.png" alt="">
+                                </div>
+                                <div class="news__text">
+                                    <div>
+                                        <p>День здоровья для сотрудников ТЕЛЕ2 в центральном офисе
+                                        </p>
+                                    </div>
+                                    <div> <a href="">Подробнее</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="news__item">
+                                <div class="news__icon">
+                                    <img src="images1/new_two.png" alt="">
+                                </div>
+                                <div class="news__text">
+                                    <div>
+                                        <p>ТелеМед принял участие в форуме по цифровизации здравоохранения, телемеди...
+                                        </p>
+                                    </div>
+                                    <div><a href="http://blog.telmed24.ru/page4997487.html" target="_blank">Подробнее</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="news__item">
+                                <div class="news__icon">
+                                    <img src="images1/new_three.png" alt="">
+                                </div>
+                                <div class="news__text">
+                                    <div>
+                                        <p>Личный врач для бабушек и дедушек в смартфонах в любом салоне ТЕЛЕ2</p>
+                                    </div>
+                                    <div> <a href="">Подробнее</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="news__item">
+                                <div class="news__icon">
+                                    <img src="images1/new_four.png" alt="">
+                                </div>
+                                <div class="news__text">
+                                    <div>
+                                        <p>ТелеМед знает все о правах потребителей и качестве обслуживания</p>
+                                    </div>
+                                    <div> <a href="http://blog.telmed24.ru/page3767395.html" target="_blank">Подробнее</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="news__item">
+                                <div class="news__icon">
+
+                                    <img src="images1/new_five.png" alt="">
+                                </div>
+                                <div class="news__text">
+                                    <div>
+                                        <p>Мы знаем, что безопасность создают люди, а не обстоятельства</p>
+                                    </div>
+                                    <div> <a href="http://blog.telmed24.ru/page4602094.html" target="_blank">Подробнее</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="news__item">
+                                <div class="news__icon">
+
+                                    <img src="images1/new_six.png" alt="">
+                                </div>
+                                <div class="news__text">
+                                    <div>
+                                        <p>Сервис ТелеМед доступен держателям карт ЛИКАРД</p>
+                                    </div>
+                                    <div> <a href="http://blog.telmed24.ru/telemed-i-karty-likard" target="_blank">Подробнее</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="news__item">
+                                <div class="news__icon">
+
+                                    <img src="images1/new_seven.png" alt="">
+                                </div>
+                                <div class="news__text">
+                                    <div>
+                                        <p>Экспресс-чекап для всех сотрудников МЕГАФОН в офисе</p>
+                                    </div>
+                                    <div> <a href="http://blog.telmed24.ru/telemed-i-megafon-ritejl" target="_blank">Подробнее</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="news__item">
+                                <div class="news__icon">
+
+                                    <img src="images1/new_eight.png" alt="">
+                                </div>
+                                <div class="news__text">
+                                    <div>
+                                        <p>«Личный врач» в любом салоне ТЕЛЕ2</p>
+                                    </div>
+                                    <div> <a href="http://blog.telmed24.ru/telemed-i-tele2" target="_blank">Подробнее</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="aboutelmed">
+                    <div class="headerspan" id="headerspan">О ТелеМед</div>
+
+                    <div class="weare__p">
+                        <p>
+                            Сервис <span id="intextspan">мгновенной /
+                                круглосуточной / дистанционной</span> поддержки по вопросам здоровья
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid screenshot__block">
+                <div class="container">
+                    <div class="clax">
+                        <div class="weare" #>
+
+                            <span>Наши преимущества</span>
+                            <div class="aboutfirst">
+                                <ul id="aboutulfirst">
+                                    <li> <span>24 часа, 7 дней в неделю, 365 дней в году</span> <br>
+                                        <span class="unnamed__span">Без праздников, перерывов на обед или
+                                            предварительной записи</span>
+                                    </li>
+                                    <li><span>Без ожидания и голосового меню </span> <br>
+                                        <span class="unnamed__span">Доктор ответит не более, чем через 15 секунд</span>
+                                    </li>
+                                    <li> <span> Все под рукой </span><br>
+                                        <span class="unnamed__span">Вся история ваших обращений и аудиозаписи разговоров
+                                            хранятся <br>в личном кабинете</span>
+                                    </li>
+                                    <li> <span> Задавайте вопросы в любом удобном формате </span> <br>
+                                        <span class="unnamed__span">Видео или аудио звонки на сайте / Горячая линия /
+                                            Чат в личном кабинете <br>или мессенджере <img src="images1/plus.svg"
+                                                id="apps" height="30px" data-toggle="modal"
+                                                data-target="#appsModal"></img></span>
+                                    </li>
+                                    <li> <span>Команда</span> <br> <span class="unnamed__span">Врачи и медицинские
+                                            юристы с опытом работы от 9 лет </span>
+                                    </li>
+                                </ul>
+                           
+                                <br>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="achievement">
+
+
+            <div class="container">
+                <div class="weare">
+                    <div class="ash">
+
+                        <span>Наши достижения</span>
+                        <div class="aboutsecond">
+                            <ul id="aboutulfirst__two">
+
+                                <li> <span>2016 год. Профессионализм специалистов компании «ТелеМед» и качество сервиса
+                                        были отмечены премией Spear's Russia Health Management Awards 2016 в номинации
+                                        «Лучший продукт в Health — Менеджменте» <br>
+                                        <a href="awards2016.pbwm.ru"> awards2016.pbwm.ru </a> </span>
+                                </li>
+                                <li> <span>2017 год. <a href="https://telmed24.ru/nafi/">Совместное исследование</a>
+                                        «ТелеМед» и НАФИ стало самой обсуждаемой и цитируемой темой 2017 года по вопросу
+                                        Телемедицины в России <span> </li>
+                                <li> <span>2018 год. Генеральный партнер ежегодной конференции деловой газеты
+                                        «Ведомости» «Smart HR: цифровые технологии в управлении персоналом»</span></li>
+                                <li><span>2018 год. Лауреат престижной премии «Права потребителей и качество
+                                        обслуживания 2018». Номинация «Профессиональный вклад в развитие рынка
+                                        телемедицинских услуг»</span></li>
+                                <li><span>2018 год. Сервис «ТелеМед» стал лауреатом премии «Security Leaders Award» - За
+                                        внедрение комплекса цифровых решений, обеспечивающих оперативную помощь в
+                                        поддержке здоровья </span></li>
+                                <li><span>2018 год. Сервис дистанционных консультаций по вопросам здоровья «ТелеМед»
+                                        стал лауреатом премии «Время инноваций» в номинации «Лучший продукт
+                                        health-management для корпоративного сектора» </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="whenyoucallme">
+            <div class="container">
+       
+
+                <div class="service">
+                    <div id="service"> Услуги </div>
+
+                    <div class="ifYou">
+                        <p>Если у Вас</p>
+                    </div>
+                </div>
+                <div class="sss d-flex justify-content-between">
+                    <div class="service-block">
+                        <div class="service-block__header">
+                            <div class="divforreasonpic"><img src="images1/baby.svg" class="reasonpic" alt=""></div>
+                            <h5>Заболел ребенок</h5>
+                        </div>
+
+                        <p class="iftext iftext_one">Симптомы некоторых заболеваний похожи на обычную простуду, главное,
+                            правильно их
+                            диагностировать.</p>
+                    </div>
+                    <div class="service-block">
+                        <div class="service-block__header">
+                            <div class="divforreasonpic"><img src="images1/head.svg" class="reasonpic" alt=""></div>
+                            <h5>Болит голова, живот,<br> мучает спина</h5>
+                        </div>
+
+                        <p class="iftext">Различные боли могут свидетельствовать о нарушении работы внутренних органов.
+                        </p>
+                    </div>
+                    <div class="service-block">
+                        <div class="service-block__header">
+                            <div class="divforreasonpic"><img src="images1/denied.svg" class="reasonpic" alt=""></div>
+                            <h5>Вам отказывают в медицинской помощи</h5>
+                        </div>
+
+                        <p class="iftext">Вас не направляют на обследования, отказывают в госпитализации.</p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="d-flex justify-content-between">
+                    <div class="service-block">
+                        <div class="service-block__header">
+                            <div class="divforreasonpic"><img src="images1/meds.svg" class="reasonpic" alt=""></div>
+                            <h5>Запутались в лекарствах</h5>
+                        </div>
+
+                        <p class="iftext iftext_one">Вы не можете разобраться в рецептах, выписанных вам врачом, Вас
+                            волнуют побочные эффекты.
+                        </p>
+                    </div>
+                    <div class="service-block">
+                        <div class="service-block__header">
+                            <div class="divforreasonpic"><img src="images1/parents.svg" class="reasonpic" alt=""></div>
+                            <h5>Хотите позаботиться<br> о родителях</h5>
+                        </div>
+
+                        <p class="iftext">Волнуетесь о здоровье родителей и хотите полностью их обезопасить.</p>
+                    </div>
+                    <div class="service-block">
+                        <div class="service-block__header">
+                            <div class="divforreasonpic"><img src="images1/other.svg" class="reasonpic" alt=""></div>
+                            <h5>Другая проблема</h5>
+                        </div>
+
+                        <p class="iftext iftext_one">Редкий, не диагностируемый случай, реабилитация после долгой
+                            болезни.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="howitwork">
+            <div class="container">
+                <div id="question__header" class="">
+                    <span class="service">
+                        <div class="howP">
+                            <p>Как это работает?</p>
+                        </div>
+                    </span>
+                 
+                </div>
+                <div class="b2chowitwork">
+
+                    <div class="howitwork__row">
+                        <div class="howitwork__firstcolumn">
+                            <div class="animaiton" id="anim">
+
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="howitwork__secondcolumn">
+                            <div class="one step step_active">
+                                <span>Четкий план</span>
+                                <br>
+                                <div class="counter"></div>
+                                <p>Определим, что Вас беспокоит и <br>
+                                    составим четкий план действий</p>
+                            </div>
+
+                            <div class="two step">
+
+                                <span id="twoStep">Анализы</span>
+                                <br>
+                                <p>
+                                    Составим дорожную карту анализов и определим<br> необходимость очного приема
+                                </p>
+                            </div>
+
+                            <div class="three step">
+                                <span>Нужен врач?</span>
+                                <br>
+                                <p>Подберем доктора и запишем на
+                                    прием</p>
+                            </div>
+                            <div class="four step">
+                                <span>Экспертиза заключения</span>
+                                <br>
+                                <p>Проведем экспертизу заключения и объясним все рекомендации</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="doctors">
+            <div class="container">
+                <div class="doctors__header">
+                    <span class="headerspan"> Наши врачи </span>
+                    <p class="doctors__description">В команду попадает только 1 из 17 специалистов. Важны не только
+                        знания, но и искреннее желание помогать людям и бороться за их здоровье.
+                        Лучшие специалисты, со средней оценкой консультации выше 4.8:</p>
+                </div>
+                <div id="tab">
+                    <div class="slider1">
+                        <div class="slider__inner">
+                            <div class="slider__item" data-target="melnikov">
+                                <div class="card-body">
+                                    <span id="doctor_name">Мельников Андрей Игоревич</span>
+                                    <br>
+                                    <span id="doctor_position">Врач - анестезиолог-реаниматолог,
+                                        трансфузиолог</span>
+                                    <span id="doctor__text">
+                                        Врач - нейрохирург <br><br>
+                                        Кандидат медицинских наук <br><br>
+                                        Стаж работы: 32 года <br><br>
+                                    </span>
+                                    <button id="doctor_info">
+                                 
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="slider__item" data-target="lipai">
+                                <div class="card-body">
+                                    <span id="doctor_name">Липай Елена Владимировна</span>
+                                    <br>
+                                    <span id="doctor_position">Врач-нейрохирург</span>
+                                    <span id="doctor__text">
+                                        Врач - терапевт, кандидат медицинских наук <br><br>
+                                        Соавтор научных работ по изучению роли генов ренин-ангиотензиновой системы в
+                                        развитии
+                                        артериальной гипертензии <br> <br>
+                                        Кандидат медицинских наук <br><br>
+                                        Стаж работы: 20 лет <br><br>
+                                    </span>
+                                    <button id="doctor_info">
+                           
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="slider__item" data-target="birlukova">
+                                <div class="card-body">
+                                    <span id="doctor_name">Бирлюкова Дина Валерьевна</span>
+                                    <br>
+                                    <span id="doctor_position">Врач-терапевт</span>
+                                    <span id="doctor__text">
+                                        Врач - терапевт первой квалификационной категории <br><br>
+                                        Высшая квалификационная категория <br><br>
+                                        Стаж работы: 20 лет <br><br>
+                                    </span>
+                                    <button id="doctor_info">
+                             
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="slider__item" data-target="babkina">
+                                <div class="card-body">
+                                    <span id="doctor_name">Бабкина Елена Павловна</span>
+                                    <br>
+                                    <span id="doctor_position">Врач скорой медицинской помощи, терапевт</span>
+                                    <span id="doctor__text">
+                                        Врач скорой медицинской помощи <br><br>
+                                        Высшая квалификационная категория <br><br>
+                                        Стаж работы: 20 лет <br><br>
+                                    </span>
+                                    <button id="doctor_info">
+                                   
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="slider__item" data-target="novikov">
+                                <div class="card-body">
+                                    <span id="doctor_name">Новиков Александр Викторович</span>
+                                    <br>
+                                    <span id="doctor_position">Врач скорой медецинской помощи</span>
+                                    <span id="doctor__text">
+                                        Врач - невролог <br><br>
+                                        Кандидат медицинских наук <br><br>
+                                        Действующие сертификаты: Неврология, Актуальные вопросы неврологии детского
+                                        возраста,
+                                        Профпатология, Скорая медицинская помощь, Гирудотерапия, Скорая медицинская
+                                        помощь,
+                                        Косметология, Инъекционная косметологияНаграждена грамотой «За добросовестную
+                                        работу в
+                                        здравоохранении Московской области» <br> <br>
+                                        Стаж работы: 16 лет <br>
+                                    </span>
+                                    <button id="doctor_info">
+                                   
+                                    </button>
+                                </div>
+                            </div>
+                          
+                            <div class="slider__item" data-target="isaeva">
+                                <div class="card-body">
+                                    <span id="doctor_name">Исаева Рушания Тагировна</span>
+                                    <br>
+                                    <span id="doctor_position">Врач-невролог</span>
+                                    <span id="doctor__text">
+                                        Врач скорой медицинской помощи <br><br>
+                                        Высшая квалификационная категория <br><br>
+                                        Стаж работы: 30 лет <br><br>
+                                    </span>
+                                    <button id="doctor_info">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="slider__item" data-target="romanova">
+                                <div class="card-body">
+                                    <span id="doctor_name">Романова Лариса Владимировна</span>
+                                    <br>
+                                    <span id="doctor_position">Врач скорой медицинской помощи</span>
+                                    <span id="doctor__text">
+                                        Врач - педиатр <br><br>
+                                        Кандидат медицинских наук <br><br>
+                                        Стаж работы: 30 лет <br><br>
+                                    </span>
+                                    <button id="doctor_info">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="slider__item" data-target="tepkina">
+                                <div class="card-body">
+                                    <span id="doctor_name">Тепкина Людмила Николавна</span>
+                                    <br>
+                                    <span id="doctor_position">Врач-педиатр</span>
+                                    <span id="doctor__text">
+                                        Врач - педиатр <br><br>
+                                        Кандидат медицинских наук <br><br>
+                                        Стаж работы: 29 лет <br><br>
+                                    </span>
+                                    <button id="doctor_info">
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <section id="presscenter">
+            <div class="container">
+                <div id="question__header" class="">
+                    <span class="headerspan"> Пресс-центр «ТелеМед» </span>
+                    <div class="pr">
+                    </div>
+                    <div class="pr__description">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-sm-12 col-lg-6">
+
+
+                        <h6>Новое в блоге</h6>
+                        <div id="newblog">
+                            <div><a href="#" target="_blank">Заголовок новости</a>
+                                <span class="spandate gray">10.02.2018</span><span class=" dot gray">•</span><span
+                                    class="gray">Статьи</span>
+                            </div>
+                            <div><a href="#" target="_blank">Заголовок новости</a>
+                                <span class="spandate gray">10.02.2018</span><span class="dot gray">•</span><span
+                                    class="gray">Статьи</span>
+                            </div>
+                            <div><a href="#" target="_blank">Заголовок новости</a>
+                                <span class="spandate gray">10.02.2018</span><span class="dot gray">•</span><span
+                                    class="gray">Статьи</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-6 right_press" style="margin-top: 55px;">
+                        <span class="citata__text"> "Наша задача в том, чтобы вы могли заниматься<br> любимым делом, а
+                            все
+                            вопросы
+                            защиты здоровья и<br> прав вас и ваших близких мы возьмём на себя."</span> <br><br>
+                        <p class="citata_author">
+                            Руководитель отдела коммуникаций <br> Александра Ижицкая
+                        </p>
+                        <img src="images1/words.png" alt="">
+                        <div class="person__img">
+                            <img src="./images1/dir.png" class="person__image">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <section id='recalls'>
+            <div class="container">
+                <span class="headerspan">Реальные отзывы клиентов</span>
+            </div>
+
+
+            <div class="owl-carousel-recalls owl-theme">
+
+                <div class="recall__item">
+                    <div class="item position">
+                        <p>Сдала биохимический анализ и хотелось узнать расшифровку.
+                            Нашла этот сайт и обратилась к консультанту. Мне чётко расшифровали, какие органы, как
+                            работают.
+                            Даже дали информацию, что все результаты в норме)
+                        </p>
+                        <div class="whostars">
+                            <div class="stars__wrapper">
+                                <div class="who">
+                                    <a>
+                                        Виктория, 35 лет
+                                    </a>
+
+                                </div>
+                                <div class="stars">
+                                    <div class="star"><img src="images1/star.svg" alt=""></div>
+                                    <div class="star"><img src="images1/star.svg" alt=""></div>
+                                    <div class="star"><img src="images1/star.svg" alt=""></div>
+                                    <div class="star"><img src="images1/star.svg" alt=""></div>
+                                    <div class="star"><img src="images1/star.svg" alt=""></div>
+                                </div>
+                            </div>
+                            <a href="https://www.yell.ru/users/1940678/" target="_blank" class="whostars__image">
+                                <img src="./images1/yell.svg" class="whostars__img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item position">
+                    <p>Смогли помочь с поиском клиники для лечения вен на ногах. Сейчас мы с врачом на постоянной связи,
+                        рассказываю ему про болевые ощущения и видимые изменения. Хорошо, что есть этот сервис
+                    </p>
+                    <div class="whostars">
+                        <div class="stars__wrapper">
+                            <div class="who">
+                                <a>
+                                    Иван, 47 лет
+                                </a>
+                            </div>
+                            <div class="stars">
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <a href="https://www.yell.ru/users/1817523/" target="_blank" class="whostars__image">
+                            <img src="images1/yell.svg" class="whostars__img">
+                        </a>
+                    </div>
+                </div>
+                <div class="item position">
+                    <p>Помогли мне решить проблему с поиском клиники для лечения почек. Сама бы точно не справилась. При
+                        этом еще и контролируют мое лечение, отправляю им результаты анализов, врач постоянно дает
+                        полезные рекомендации. Спасибо, не зря Вам доверилась.
+                    </p>
+                    <div class="whostars">
+                        <div class="stars__wrapper">
+                            <div class="who">
+                                <a>
+                                    Надежда, 41 год
+                                </a>
+                            </div>
+                            <div class="stars">
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+
+                            </div>
+                        </div>
+                        <a href="https://www.yell.ru/users/1937453/" target="_blank" class="whostars__image">
+                            <img src="./images1/yell.svg" class="whostars__img">
+                        </a>
+                    </div>
+                </div>
+                <div class="item position">
+                    <p>Я не стала зря тратить время и бегать по всем больницам с болями в ноге у моей мамы, а обратилась
+                        уже в проверенное место компанию ТелеМед. Отправила все анализы, рентгены, МРТ. Буквально
+                        на следующий день мне предложили на выбор 2 клинике, где мне лучше всего помогут.
+                        И действительно, маме намного лучше. Хочу отметить, что компания не только помогла в выборе
+                        клиники, но и контролирует лечение. Спасибо
+                    </p>
+                    <div class="whostars">
+                        <div class="stars__wrapper">
+                            <div class="who">
+                                <a>
+                                    Елена, 29 лет
+                                </a>
+
+                            </div>
+                            <div class="stars">
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+
+                            </div>
+                        </div>
+                        <a href="https://zoon.ru/msk/internet/meditsinskij_servis_telemed_-_servis_lichnogo_vracha/"
+                            target="_blank" class="whostars__image">
+                            <img src="./images1/zoon.svg" class="whostars__img">
+                        </a>
+                    </div>
+                </div>
+                <div class="item position">
+                    <p>Обратилась с серьезной проблемой, смогли в кратчайшие сроки найти хорошего специалиста и записать
+                        к нему в ближайшее время!
+                    </p>
+                    <div class="whostars">
+                        <div class="stars__wrapper">
+                            <div class="who">
+                                <a>
+                                    Анастасия, 31 год
+                                </a>
+                            </div>
+                            <div class="stars">
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+
+                            </div>
+                        </div>
+                        <a href="https://yandex.ru/maps/org/telemed_servis_lichnogo_vracha/145300630356/reviews/?ll=37.641000%2C55.758043&z=18"
+                            target="_blank" class="whostars__image">
+                            <img src="./images1/yandex.svg" class="whostars__img">
+                        </a>
+                    </div>
+                </div>
+                <div class="item position">
+                    <p>Спасибо большое всем сотрудникам, за доброкачественный совет,ещё не раз обращюсь,удачи в
+                        процветание...
+                    </p>
+                    <div class="whostars">
+                        <div class="stars__wrapper">
+                            <div class="who">
+                                <a>
+                                    Татьяна, 52 года
+                                </a>
+                            </div>
+                            <div class="stars">
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+                                <div class="star"><img src="images1/star.svg" alt=""></div>
+
+                            </div>
+                        </div>
+                        <a href="https://www.google.com/maps/contrib/110712417333858608758/place/ChIJpSiLWvVKtUYRmG5K5EbCl-E/@52.0968086,86.3093419,3z/data=!4m6!1m5!8m4!1e1!2s110712417333858608758!3m1!1e1?hl=ru-RU"
+                            target="_blank" class="whostars__image">
+                            <img src="./images1/google.png" class="whostars__img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+      
+        <section id="partners">
+            <div class="container">
+                <div id="question__header" class="">
+                    <span class="headerspan">Партнеры</span>
+                </div>
+                <span>
+                    <h6>Нам доверяют</h6>
+                </span>
+                <div class="container">
+                    <div class="partners__block">
+                        <div class="partners__item">
+                            <div class="partners__item-img"></div>
+                        </div>
+                        <div class="partners__item">
+                            <div class="partners__item-img"></div>
+                        </div>
+                        <div class="partners__item">
+                            <div class="partners__item-img"></div>
+                        </div>
+                        <div class="partners__item">
+                            <div class="partners__item-img"></div>
+                        </div>
+                        <div class="partners__item">
+                            <div class="partners__item-img"></div>
+                        </div>
+                        <div class="partners__item">
+                            <div class="partners__item-img"></div>
+                        </div>
+                        <div class="partners__item">
+                            <div class="partners__item-img"></div>
+                        </div>
+                        <div class="partners__item">
+                            <div class="partners__item-img"></div>
+                        </div>
+                        <div class="partners__item">
+                            <div class="partners__item-img"></div>
+                        </div>
+
+                        <div class="partners__item">
+                            <div class="partners__item-img"></div>
+                        </div>
+
+                        <div class="partners__item">
+                            <div class="partners__item-img"></div>
+                        </div>
+
+                    </div>
+                </div>
+               
+                <div id="parnersCoopiration">
+                    <span class="coopiration__h">
+                        <h6>Приглашаем к сотрудничеству</h6>
+                    </span>
+                    <div class="whoCoopiration">
+                        <div class="whoCoopirationOne">
+                            <div class="partnersBorder" id="banks">Банки</div>
+                            <div class="partnersBorder" id="insurance">Страховые компании</div>
+                            <div class="partnersBorder" id="mfo">МФО</div>
+                            <div class="partnersBorder" id="retail">Ритейл</div>
+                            <div class="partnersBorder" id="marketPlace">Маркетплейсы</div>
+                            <div class="partnersBorder" id="clinics">Клиники</div>
+
+                        </div>
+
+                        <div class="whoCoopirationTwo">
+                            <div class="partnersBorder" id="airlines">Авиакомпании</div>
+                            <div class="partnersBorder" id="tourism">Туристические компании</div>
+                            <div class="partnersBorder" id="brokers">Кредитные и страховые брокеры</div>
+                        </div>
+                    </div>
+                    <div id="modalBanks" class="modalCoopiration" style="display: block;">
+                        <div class="coopirationImg">
+                            <div class="flexImg"> <img src="images1/banks.svg" alt=""></div>
+                        </div>
+                        <div class="rrr">
+                            <h6>Банки</h6><br>
+                          
+                        </div>
+                    </div>
+                    <div id="modalInsurance" class="modalCoopiration">
+                        <div class="coopirationImg">
+                            <div class="flexImg"> <img src="images1/insurance.svg" alt=""></div>
+                        </div>
+                        <div class="rrr">
+                            <h6>Страховые компании</h6><br>
+                         
+                        </div>
+                    </div>
+                    <div id="modalMfo" class="modalCoopiration">
+                        <div class="coopirationImg">
+                            <div class="flexImg"> <img src="images1/mfo.svg" alt=""></div>
+                        </div>
+                        <div class="rrr">
+                            <h6>МФО</h6><br>
+                        </div>
+                    </div>
+                    <div id="modalRetail" class="modalCoopiration">
+                        <div class="coopirationImg">
+                            <div class="flexImg"> <img src="images1/retail.svg" alt=""></div>
+                        </div>
+                        <div class="rrr">
+                            <h6>Ритейл</h6><br>
+                        </div>
+                    </div>
+                    <div id="modalMarketPlace" class="modalCoopiration">
+                        <div class="coopirationImg">
+                            <div class="flexImg"><img src="images1/marketplace.svg" alt=""></div>
+                        </div>
+                        <div class="rrr">
+                            <h6>Маркет Плейс</h6><br>
+                        </div>
+                    </div>
+                    <div id="modalClinics" class="modalCoopiration">
+                        <div class="coopirationImg">
+                            <div class="flexImg"> <img src="images1/clinics.svg" alt=""></div>
+                        </div>
+                        <div class="rrr">
+                            <h6>Клинкики</h6><br>
+                        </div>
+                    </div>
+                    <div id="modalAirlines" class="modalCoopiration">
+                        <div class="coopirationImg">
+                            <div class="flexImg"> <img src="images1/airlines.svg" alt=""></div>
+                        </div>
+                        <div class="rrr">
+                            <h6> Авиакомпании</h6><br>
+                        </div>
+                    </div>
+                    <div id="modalTourism" class="modalCoopiration">
+                        <div class="coopirationImg">
+                            <div class="flexImg"> <img src="images1/tourism.svg" alt=""></div>
+                        </div>
+                        <div class="rrr">
+                            <h6>Туристические компании</h6><br>
+                        </div>
+                    </div>
+                    <div id="modalBrokers" class="modalCoopiration">
+                        <div class="coopirationImg">
+                            <div class="flexImg"> <img src="images1/brokers.svg" alt=""></div>
+                        </div>
+                        <div class="rrr">
+                            <h6>Кредитные и страховые брокеры</h6><br>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="partnersOurPluses">
+                    <div class="headerPluses">
+                        <h6>Наши преимущества</h6>
+                    </div>
+                    <div id="ourPluses">
+
+                        <div class="integration">
+                            <span class="ourPlusesHeader"> <img src="images1/integration.svg"> Интеграция в
+                                продукт</span>
+                            <br>
+                            <p>Включение в текущий тариф полиса</p>
+                            <p>Up-sale к страхованию ВЗР</p>
+                            <p>Инновационный продукт для расширения<br> возможностей ДМС</p>
+                        </div>
+                        <div class="support">
+                            <span class="ourPlusesHeader"> <img src="images1/support.svg"> Поддержка</span>
+                            <br>
+                            <p>Наши технические специалисты помогут ответить на<br> ваши вопросы</p>
+                            <p>Решить технические проблемы</p>
+                            <p>Помогут создать продающий лендинг</p>
+                        </div>
+                    </div>
+                    <div id="ourPluses">
+
+                        <div class="university">
+                            <span class="ourPlusesHeader"><img src="images1/university.svg">Корпоративный
+                                университет</span>
+                            <br>
+                            <p>Создание скриптов под продукт. Возможность<br> проведения обучающих вебинаров и
+                                выездных<br> тренингов</p>
+                        </div>
+                        <div class="call_center">
+                            <span class="ourPlusesHeader"> <img src="images1/callcenter.svg">Услуги call-центра</span>
+                            <br>
+                            <p>Аутсорсинговый call-центр для организации приёма и<br> обработки всех видов входящей и
+                                исходящей<br> коммуникации для ваших клиентов</p>
+                        </div>
+
+                    </div>
+                    <div id="ourPluses">
+
+                        <div class="api">
+                            <span class="ourPlusesHeader"> <img src="images1/api.svg">Готовая сейл-программа</span>
+                            <br>
+                            <p>Прямые продажи из нашей системы или интеграция<br> в систему партнера средствами API</p>
+                        </div>
+                        <div class="hotline">
+                            <span class="ourPlusesHeader"> <img src="images1/hotline.svg">Круглосуточная горячая
+                                линия</span>
+                            <br>
+                            <p>Легко масштабируемый колл-центр с круглосуточной<br>связью со специалистами</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="partnersBecome">
+                    <div id="becomePartner">Стать партнером</div>
+                    <div class="becomeHeader">
+                        <p>Оставьте заявку на подключение к партнерской системе "ТелеМед". Мы поможем монетизировать
+                            медицинский трафик максимально выгодно.</p>
+                    </div>
+                    <div class="partners__form">
+                        <span class="partners__form_text">Введите email</span>
+                        <div class="input__wrapper">
+                            <input class="partners__email" type="text">
+                            <button class="partners__mailSend" disabled style="opacity: 0.5;">ОТПРАВИТЬ</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="partenrs-logos row" hidden>
+                    <div class="col   col-lg-2.5 logo-for-buisness ">
+                        <div class="logo1"></div>
+                    </div>
+                    <div class="col   col-lg-2.5 logo-for-buisness">
+                        <div class="logo2"></div>
+                    </div>
+                    <div class="col   col-lg-2.5 logo-for-buisness">
+                        <div class="logo3"></div>
+                    </div>
+                    <div class="col   col-lg-2.5 logo-for-buisness">
+                        <div class="logo4"></div>
+                    </div>
+                    <div class="col   col-lg-2.5 logo-for-buisness">
+                        <div class="logo5"></div>
+                    </div>
+                    <div class="col   col-lg-2.5 logo-for-buisness">
+                        <div class="logo6"></div>
+                    </div>
+                    <div class="col   col-lg-2.5 logo-for-buisness">
+                        <div class="logo7"></div>
+                    </div>
+                    <div class="col   col-lg-2.5 logo-for-buisness">
+                        <div class="logo8"></div>
+                    </div>
+                    <div class="col   col-lg-2.5 logo-for-buisness">
+                        <div class="logo9"></div>
+                    </div>
+                    <div class="col  col-lg-2.5 logo-for-buisness">
+                        <div class="logo11"></div>
+                    </div>
+
+                    <div class="buttonblock">
+                        <button id="somethingelse">Показать еще</button>
+                    </div>
+                    <div id="anotherlogos" class="morelogos row animated fadeIn">
+                        <div class="col  col-lg-2.5 logo-for-buisness">
+                            <div class="logo11"></div>
+                        </div>
+
+                        <div class="col  col-lg-2.5 logo-for-buisness">
+                            <div class="logo15"></div>
+                        </div>
+                        <div class="col  col-lg-2.5 logo-for-buisness">
+                            <div class="logo16"></div>
+                        </div>
+                        <div class="col  col-lg-2.5 logo-for-buisness">
+                            <div class="logo17"></div>
+                        </div>
+                        <div class="col  col-lg-2.5 logo-for-buisness">
+                            <div class="logo18"></div>
+                        </div>
+                        <div class="col  col-lg-2.5 logo-for-buisness">
+                            <div class="logo19"></div>
+                        </div>
+                        <div class="col  col-lg-2.5 logo-for-buisness">
+                            <div class="logo20"></div>
+                        </div>
+                        <div class="col  col-lg-2.5 minlog logo-for-buisness">
+                            <div class="logo21"></div>
+                        </div>
+
+                        <div class="buttonblock">
+                            <button id="hidepartners">Скрыть </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="questions">
+            <div class="container ">
+                <div id="question__header" class="">
+                    <span class="headerspan">Вопросы и ответы</span>
+                </div>
+                <div class="shred">
+                    <div class="row">
+                        <div class="question_form mequestion col col-sm-12 col-lg-6">
+                            <label class="formlabel" for="categories">Выберите вопрос</label>
+                            <div class="custom-select" id="categoriesdiv">
+                                <select aria-haspopup="true" aria-expanded="false" value="Выберите категорию">
+                                    <option value="">Что такое ТелеМед?</option>
+                                    <option value="">То есть мне поставят диагноз?</option>
+                                    <option value="">Вы лечите по телефону?</option>
+                                    <option value="">А как я вспомню все, что посоветовал доктор?</option>
+                                    <option value="">Можно ли звонить из-за границы?</option>
+                                    <option value="">А можно просто спросить?</option>
+                                    <option value="">Что за врачи работают в сервисе, откуда они?</option>
+                                    <option value="">У меня в сертификате 5 консультаций. Это значит, что я могу
+                                        позвонить 5
+                                        раз?</option>
+                                </select>
+                            </div>
+                            <br>
+                            <br>
+                           
+                            <br>
+                            <div class="b2c_answer">
+                                Это сервис для удаленных консультаций с самыми разными врачами. Он позволяет в любой
+                                момент,
+                                когда возникает вопрос о здоровье (вашем или ваших близких) сразу же обратить к врачу и
+                                получить совет и четкий алгоритм действий. По телефону или через интернет, как вам
+                                удобней.
+                                Это не заменит поход к врачу, но сделает быстрее и легче ваш путь к выздоровлению.
+
+                            </div>
+                        </div>
+                        <div class="question_form businessquestion col col-sm-12 col-lg-6">
+                            <label class="formlabel" for="categories">Выберите вопрос</label>
+                            <div class="custom-select" id="categoriesdiv">
+                                <select aria-haspopup="true" aria-expanded="false" value="Выберите категорию">
+                                    <option value="">Вы предлагаете только представленные на сайте тарифы?</option>
+                                    <option value="">У нашей компании уже есть ДМС для сотрудников, зачем нам ещё
+                                        что-то?
+                                    </option>
+                                    <option value="">Врачи каких специальностей есть в ТелеМед?</option>
+                                    <option value="">Какова квалификация и уровень компетенции врачей?</option>
+                                    <option value="">Хорошо, а сколько занимает запуск?</option>
+                                    <option value="">Я не верю, что сервисом будут пользоваться и что это не зря
+                                        потраченные
+                                        деньги</option>
+                                    <option value="">Вы можете подключить к сервису только сотрудников компании?
+                                    </option>
+                                </select>
+                            </div>
+                            <br>
+                            <br>
+                            <label class="formlabel" for="">Ответ</label>
+                            <br>
+                            <p class="b2b_answer">
+                                Нет, подбираем для ваших сотрудников или клиентов то, что подойдет им лучше всего. У нас
+                                очень широкая продуктовая линейка для всех целевых аудиторий и желаемых стоимостей.
+                            </p>
+                        </div>
+                        <div class="backforpeople col col-sm-12 col-lg-6">
+                            <img src="images1/questions.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <section id="callback">
+            <div class="container">
+                <div id="question__header" class="" align="center">
+                    <span class="headerspan" id="connectWithUs">Свяжитесь с нами</span>
+                    <br>
+                    <div class="connectionPhone">
+                        <div class="phoneText"> По телефону: </div>
+                        <div class="phoneNumber"><a href="tel:88007752498">8-800-775-24-98</a>|<a
+                                href="tel:84992162498">8-499-216-24-98</a> </div>
+
+
+                    </div>
+                    <div id="form">
+                        <div class="row">
+                            <div class="col col-lg-2"></div>
+                            <div class="col col-lg-4 col-sm-12">
+                                <label class="formlabel" for="name">Ваше имя</label>
+                                <br>
+                                <input onkeyup="Ru(this);" type="text" name="name" id="name">
+                            </div>
+                            <div class="col col-lg-4 col-sm-12">
+                                <label class="formlabel" for="lastname">Ваша фамилия</label>
+                                <br>
+                                <input onkeyup="Ru(this);" type="text" name="lastname" id="lastname">
+                            </div>
+                            <div class="col col-lg-2"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-lg-2"></div>
+                            <div class="col col-lg-4 col-sm-12">
+                                <label for="mail" class="formlabel">EMAIL</label>
+                                <br>
+                                <input type="text" name="mail" id="mail" class="input__email">
+                            </div>
+                            <div class="col col-lg-4 col-sm-12">
+                                <label for="phone" class="formlabel">Номер телефона</label>
+                                <br>
+                                <input type="text" name="phone" id="phone">
+                            </div>
+                            <div class="col col-lg-2"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-lg-2"></div>
+                            <div class="col col-lg-8 col-sm-12">
+                                <label for="department" class="formlabel">В Какой отдел направить обращение</label>
+                                <br>
+                                <div class="custom-select" id="categoriesdiv">
+                                    <select aria-haspopup="true" aria-expanded="false" value="Выберите категорию">
+                                        <option value="">Служба поддержки клиентов</option>
+                                        <option value="">PR-отдел</option>
+                                        <option value="">Отдел продаж</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="col col-lg-2"></div>
+                        </div>
+
+                        <div class="row" id="businesscallback">
+                            <br>
+                            <br>
+                           
+                            <div class="col col-lg-2"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-lg-2"></div>
+                            <div class="col col-lg-8 col-sm-12">
+                                <label for="messagearea" class="formlabel">сообщение или предложение</label>
+                                <br>
+                                <textarea name="message" id="messagearea" rows="5" required></textarea>
+                            </div>
+                            <div class="col col-lg-2"></div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="senddiv">
+                            <label>
+                                <input class="checkbox" type="checkbox" name="agree_checkbox" id="agreecheck">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">Согласен с <a href="doc3.pdf">политикой конфиденциальности
+                                        сайта,</a>
+                                    согласен на обработку персональных данных</span>
+                            </label>
+                            <button class="send" disabled style="opacity: 0.5;">ОТПРАВИТЬ</button>
+                        </div>
+                    </div>
+                    <div id="thanks_you">
+                        <span id="client_name"></span>, Ваше сообщение успешно <br>отправлено, ожидайте ответа.
+                        <br>
+                        <div class="thanks_you_button">
+                            <button class="small_button">ХОРОШО</button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="footer">
+            <div class="container">
+                <div class="footerBlock">
+                    <div class="footer__first"> ПАРТНЕРАМ</div>
+                    <style>
+                        html {
+                          scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+                        }
+                        </style>
+                    <div class="footer__first"><a href="#partners">Партнеры ТелеМед</a></div>
+                    <div class="footer__first"></span><a href="#parnersCoopiration">Приглашаем к сотрудничеству</a></div>
+                    <div class="footer__first"></span><a href="#partnersOurPluses">Наши преимущества</a></div>
+                </div>
+                <div class="footerBlock">
+                    <div>СОЦИАЛЬНЫЕ СЕТИ И БОТЫ</div>
+                    <div class="social">
+                        <span class="socialItem"> <a href="https://www.facebook.com/TeleMedLLC/"><img
+                                    src="images1/facebookfooter.svg" alt=""></a> </span>
+                        <span class="socialItem"> <a
+                                href="https://refer.id/?bot=telemedllc&platform=viber&verbose_name=%D0%A2%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D0%B4&context=c:371,n:36418"><img
+                                    src="images1/viberfooter.svg" alt=""></a> </span>
+                        <span class="socialItem"> <a
+                                href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F1911449325799953%2F%3Fref%3Dc%253A371%252Cn%253A36418%26messaging_source%3Dsource%253Apages%253Amessage_shortlink"><img
+                                    src="images1/messfooter.svg" alt=""></a> </span>
+                        <span class="socialItem"> <a href="https://vk.com/app7156066_-187942234#c:412,n:36788"><img
+                                    src="images1/vk.svg" alt=""></a> </span>
+                        <span class="socialItem"> <a
+                                href="https://refer.id/?bot=TeleMedLLC_bot&platform=telegram&verbose_name=%D0%A2%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D0%B4&start=c_371__n_36418"><img
+                                    src="images1/telega.svg" alt=""></a> </span>
+                    </div>
+                    <p>ПРИЛОЖЕНИЯ</p>
+                    <div class="footer__second">
+                        <span class="applegoogle">
+
+                            <a class="apl" href="https://apps.apple.com/ru/app/%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D0%B4-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81-%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B2%D1%80%D0%B0%D1%87%D0%B0/id1305253174?l=ru&ls=1
+                                " target="_blank" onsubmit="ym(41511959, 'reachGoal', 'appstore'); return true;">
+                                AppStore
+                            </a>
+                        </span>
+
+                        <span class="applegoogle">
+
+                            <a class="ggl" href="https://play.google.com/store/apps/details?id=ru.telemed24v2.android"
+                                target="_blank" onsubmit="ym(41511959, 'reachGoal', 'googleplay'); return true;">
+                                Google Play
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="footerBlock hidden_after">
+
+                    <p>
+                        Услуги оказывает ООО «ТЕЛЕМЕД» <br>
+                        ИНН 7709465136 ОГРН 1157746726598 <br>
+                        г. Москва, Колпачный пер., д.6, стр.5
+                        <br>
+                        <!-- <div class="footer_ref">
+                            <a href="oferta.pdf">Опционнный договор</a><br>
+                            <a href="" class="lic" data-toggle="modal" data-target="#aboutModal">Памятка</button>
+                        </div> -->
+                    </p>
+
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+    <a href="#open-block" style="display: none;" class="link-open-block">link-open-block</a>
+    <div id="open-block" class="">
+        <div class="open-block-inner">
+            <div class="open-block__img">
+                <img src="./images1/mail_ok.svg" class="img-block">
+            </div>
+            <span class="open__blockTitle">
+                Заявка отправлена
+            </span>
+            <span class="open__blockText">
+                Спасибо за обращение, мы рассмотрим его и вскоре свяжемся с Вами
+            </span>
+            <a href="#" class="open__blockBtn closik" title="close">Хорошо</a>
+            <a href="#" class="open-block-close closik" title="close"></a>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $("#accordion").accordion();
+        });
+        $('.lic').click(function () {
+            $('#aboutModal #ui-id-14').click()
+        })
+    </script>
+
+    <script>
+        $(".scrollTo").click(function () {
+            if ($('.mobileMenu').hasClass('active')) {
+                $('body').css('display', 'block')
+                $('.siteWrapper').css('display', 'block')
+                $('.mobileMenu').removeClass('active')
+            }
+            // $('.mobileMenu').hide();
+            // $('.siteWrapper').show();
+            var elementClick = $(this).attr("href");
+            console.log(elementClick);
+            var destination = ($(elementClick).offset().top - 180 + 'px');
+            $('html,body').animate({
+                scrollTop: destination
+            }, 1000);
+            return false;
+
+
+
+        });
+    </script>
+    <script>
+        $(function () {
+            $("#tabs, #tabs1").tabs();
+        });
+    </script>
+    <script>
+        $('#aboutModal').hover(function () {
+            setTimeout(function () {
+                var swiper = new Swiper('.swiper-container', {
+                    slidesPerView: 2.5,
+
+                    resistanceRatio: 0,
+                    spaceBetween: 16,
+                    breakpoints: {
+                        // when window width is <= 320px
+                        320: {
+                            slidesPerView: 1,
+
+                        },
+                        // when window width is <= 480px
+                        480: {
+                            slidesPerView: 1,
+
+                        },
+                        640: {
+                            slidesPerView: 2,
+                        },
+                        // when window width is <= 640px
+
+                        1140: {
+                            slidesPerView: 1.5,
+                        }
+                    },
+                    scrollbar: {
+                        el: '.swiper-scrollbar',
+                        hide: false,
+                    },
+
+                });
+            }, 150);
+        })
+        $('#aboutModal').on("scroll", function () {
+            setTimeout(function () {
+                var swiper = new Swiper('.swiper-container', {
+                    slidesPerView: 2.5,
+
+                    resistanceRatio: 0,
+                    spaceBetween: 16,
+                    breakpoints: {
+                        // when window width is <= 320px
+                        320: {
+                            slidesPerView: 1,
+
+                        },
+                        // when window width is <= 480px
+                        480: {
+                            slidesPerView: 1,
+
+                        },
+                        640: {
+                            slidesPerView: 2,
+                        },
+                        // when window width is <= 640px
+
+                        900: {
+                            slidesPerView: 2,
+                        },
+                        1140: {
+                            slidesPerView: 2.5,
+                        }
+                    },
+                    scrollbar: {
+                        el: '.swiper-scrollbar',
+                        hide: false,
+                    },
+
+                });
+            }, 150);
+        })
+    </script>
+
+    <script>
+        $('#bucketform input[type="checkbox"]').keyup(function () {
+
+
+            if (($(this).is(':checked')) && ($('#sale_id').val().length > 1)) {
+
+                $('#bucketform .send').css('opacity', '1').removeAttr('disabled');
+
+
+            } else {
+                $('#bucketform .send').css('opacity', '.5').attr('disabled', 'disabled');
+            }
+
+
+        })
+        $('#callback input[name="agree_checkbox"]').change(function () {
+            var name = $('#name').val();
+            var lastname = $('#lastname').val();
+            var mail = $('#mail').val();
+            var phone = $('#callback #phone').val().replace(/[-+_ ()]/g, '');
+            var message = $('#message').val();
+            // var company_name = $('#companyname').val();
+            // var company_size = $('#sizeofcompany').val();
+
+            if (($(this).is(':checked') && (phone.length > 10) && (mail.length > 2)) ||
+                (($(this).is(':checked') && (phone.length > 10) && (mail.length > 2) && (name.length > 2) && (
+                    lastname.length > 2)))) {
+
+
+                $('#callback .send').css('opacity', '1').removeAttr('disabled');
+
+
+            } else {
+                $('#callback .send').css('opacity', '.5').attr('disabled', 'disabled');
+            }
+
+
+        })
+
+        var tarif_options = "";
+        $('#allday').change(function () {
+            if ($(this).is(':checked')) {
+
+                tarif_options += "Консультации докторов и юристов" + "<br>";
+                console.log(tarif_options)
+
+            } else {
+                tarif_options -= "Консультации докторов и юристов" + "<br>";
+                console.log(tarif_options)
+            }
+
+
+        })
+        $('#narrow').change(function () {
+            if ($(this).is(':checked')) {
+
+                tarif_options += "Дистанционная консультация узких специалистов" + "<br>";
+                console.log(tarif_options)
+
+            } else {
+                tarif_options -= "Дистанционная консультация узких специалистов" + "<br>";
+                console.log(tarif_options)
+            }
+
+
+        })
+
+        $('#patients_rights').change(function () {
+            if ($(this).is(':checked')) {
+
+                tarif_options += "Дистанционная поддержка узких специалистов" + "<br>";
+                console.log(tarif_options)
+
+            } else {
+                tarif_options -= "Дистанционная поддержка узких специалистов" + "<br>";
+                console.log(tarif_options)
+            }
+
+
+        })
+
+        $('#extreme_help').change(function () {
+            if ($(this).is(':checked')) {
+
+                tarif_options += "Экстренная помощь" + "<br>";
+                console.log(tarif_options)
+
+            } else {
+                tarif_options -= "Экстренная помощь" + "<br>";
+                console.log(tarif_options)
+            }
+
+
+        })
+
+        $('#second_opinion').change(function () {
+            if ($(this).is(':checked')) {
+
+                tarif_options += "«Второе мнение» (Россия)" + "<br>";
+                console.log(tarif_options)
+
+            } else {
+                tarif_options -= "«Второе мнение» (Россия)" + "<br>";
+                console.log(tarif_options)
+            }
+
+
+        })
+
+        $('#second_opinion_world').change(function () {
+            if ($(this).is(':checked')) {
+
+                tarif_options += "«Второе мнение» (Мир)" + "<br>";
+                console.log(tarif_options)
+
+            } else {
+                tarif_options -= "«Второе мнение» (Мир)" + "<br>";
+                console.log(tarif_options)
+            }
+
+
+        })
+
+        $('#search_clinics').change(function () {
+            if ($(this).is(':checked')) {
+
+                tarif_options += "Медицинский навигатор" + "<br>";
+                console.log(tarif_options)
+
+            } else {
+                tarif_options -= "Медицинский навигатор" + "<br>";
+                console.log(tarif_options)
+            }
+
+
+        })
+
+        $('#farm').change(function () {
+            if ($(this).is(':checked')) {
+
+                tarif_options += "Честная фармокология" + "<br>";
+                console.log(tarif_options)
+
+            } else {
+                tarif_options -= "Честная фармокология" + "<br>";
+                console.log(tarif_options)
+            }
+
+
+        })
+
+        $('#family_health').change(function () {
+            if ($(this).is(':checked')) {
+
+                tarif_options += "Семейное здоровье" + "<br>";
+                console.log(tarif_options)
+
+            } else {
+                tarif_options -= "Семейное здоровье" + "<br>";
+                console.log(tarif_options)
+            }
+
+
+        })
+
+        $('#form input, #form textarea').attr('onblur', 'undisableb2c()');
+
+        $('#clients_child').change(function () {
+            if ($(this).is(':checked')) {
+
+                tarif_options += "Дети клиента" + "<br>";
+                console.log(tarif_options)
+
+            } else {
+                tarif_options -= "Дети клиента" + "<br>";
+                console.log(tarif_options)
+            }
+
+
+        })
+    </script>
+    <script>
+        // $('.owl-carousel-partners').owlCarousel({
+        //     loop: true,
+        //     // autoplay:true,
+        //     nav: true,
+        //     items: 5
+        // })
+        var status = 0;
+
+        function b2b() {
+            // Свяжитесь с нами
+            status = 1;
+            console.log(status);
+            $('.changea').text('Как мы помогаем бизнесу');
+            $('#callback .forbusiness').addClass('activetab')
+            $('#callback .forme').removeClass('activetab')
+            $('#businesscallback').css('display', 'flex');
+            // тарифы
+            $('#tariffs .forbusiness').addClass('activetab');
+            $('#tariffs .forme').removeClass('activetab');
+            $('#forbusinesstariffs').show();
+            $('#formetariffs').hide();
+            // О телеМед
+            $('#aboutelmed .forbusiness').addClass('activetab');
+            $('#haveaquestion h1').text('Получите коммерческое предложение');
+            $('.buycard').text('НАПИСАТЬ НАМ');
+            $('#aboutelmed .forme').removeClass('activetab');
+            $('.windowb2b').show();
+            $('#aboutulsecond').show();
+            $('.windowme').hide();
+            $('#aboutulfirst').hide();
+            // Остались вопросы
+            $('#questions .forbusiness').addClass('activetab');
+            $('#questions .forme').removeClass('activetab');
+            $('.businessquestion').show();
+            $('.mequestion').hide();
+            // когда стоит звонить нам
+            $('#whenyoucallme .forbusiness').addClass('activetab');
+            $('#whenyoucallme .forme').removeClass('activetab');
+            $('#whenyoucallme .headerspan').text('Как мы помогаем бизнесу?');
+            $('#reasons').hide();
+            $('#howwehelp').show();
+            // как это работает
+            $('#howitwork .forbusiness').addClass('activetab');
+            $('#howitwork .forme').removeClass('activetab');
+            $('.b2chowitwork').hide();
+            $('.b2bhowitwork').show();
+            $('.buycard1').text("НАПИСАТЬ НАМ").addClass('typemessage').removeClass('buycard1');
+            $('#form input, #form textarea').attr('onblur', 'undisableb2b()');
+            $("#moreinfo").attr('onclick', 'aboutb2b()');
+            $('#howwehelpmobile').addClass('howwehelpmobileb2b')
+            $('label[for="name"]').addClass('noneafter');
+            $('label[for="lastname"]').addClass('noneafter');
+
+        }
+
+        function b2c() {
+            $('.changea').text('Когда звонить нам');
+            status = 0;
+            $('label[for="name"]').removeClass('noneafter');
+            $('label[for="lastname"]').removeClass('noneafter');
+
+            console.log(status);
+            // остались вопросы
+            $('#questions .forme').addClass('activetab');
+            $('#questions .forbusiness').removeClass('activetab');
+            $('.businessquestion').hide();
+            $('.mequestion').show();
+            //Тарифы
+            $('#tariffs .forme').addClass('activetab');
+            $('#tariffs .forbusiness').removeClass('activetab');
+            $('#forbusinesstariffs').hide();
+            $('#formetariffs').show();
+            // обратная связь
+
+            $('#callback .forme').addClass('activetab');
+            $('#callback .forbusiness').removeClass('activetab')
+            $('#businesscallback').hide()
+            // о телемед
+            $('#aboutelmed .forme').addClass('activetab');
+            $('#aboutelmed .forbusiness').removeClass('activetab');
+            $('.windowme').show();
+            $('#haveaquestion h1').text('Остались вопросы?')
+            $('.buycard').text('КУПИТЬ КАРТУ ТЕЛЕМЕД');
+            $('#aboutulfirst').show();
+            $('.windowb2b').hide();
+            $('#aboutulsecond').hide();
+            // когда стоит звонить нам
+            $('#whenyoucallme .forbusiness').removeClass('activetab');
+            $('#whenyoucallme .forme').addClass('activetab');
+            $('#whenyoucallme .headerspan').text('Когда стоит звонить нам?');
+            $('#reasons').show();
+            $('#howwehelp').hide();
+            // как это работает
+            $('#howitwork .forbusiness').removeClass('activetab');
+            $('#howitwork .forme').addClass('activetab');
+            $('.b2chowitwork').show();
+            $('.b2bhowitwork').hide();
+            $('.typemessage').text("КУПИТЬ КАРТУ ТЕЛЕМЕД").removeClass('typemessage').addClass('buycard1');
+            $('#form input, #form textarea').attr('onblur', 'undisableb2c()');
+            $("#moreinfo").attr('onclick', 'aboutb2c()');
+            $('#howwehelpmobile').removeClass('howwehelpmobileb2b')
+
+
+        }
+    </script>
+    <script>
+        $('#contactsModal').click(function () {
+            console.log('12');
+            $('.modalArrow').show();
+
+        })
+
+        $('#callme').click(function () {
+            console.log('34');
+            $('.modalArrow').hide();
+
+        })
+    </script>
+    <script>
+        $(function () {
+            $('.nav-item').mouseout(function () {
+                $('.block__about').hide();
+            });
+            $('.nav-item').mouseover(function () {
+                $(this).find('.block__about').show();
+            });
+
+        })
+    </script>
+    <script>
+        function aboutb2c() {
+            $('#aboutModal #ui-id-13').click();
+
+
+        }
+
+        function aboutb2b() {
+            $('#aboutModal #ui-id-12').click();
+
+
+        }
+
+
+
+        // $("#callback .senddiv button").click(function () { //устанавливаем событие отправки для формы с id=form
+        //     if (status == 0) {
+        //         console.log(status)
+        //         var formData = {
+        //             "name": "Имя: " + $('#name').val() + "<br>",
+        //             "lastname": "Фамилия: " + $('#lastname').val() + "<br>",
+        //             "mail": "Электронный адрес: " + $('#mail').val() + "<br>",
+        //             "phone": "Телефон: " + $('#callback #phone').val() + "<br>",
+        //             "message": "Сообщение: " + $('#messagearea').val() + "<br>",
+        //             "titlename": "" + $('#name').val() + "",
+        //             "titlelastname": "" + $('#lastname').val() + "",
+        //         }
+        //     } else {
+        //         console.log(status)
+        //         var formData = {
+        //             "name": "Имя: " + $('#name').val() + "<br>",
+        //             "lastname": "Фамилия: " + $('#lastname').val() + "<br>",
+        //             "mail": "Электронный адрес: " + $('#mail').val() + "<br>",
+        //             "phone": "Телефон: " + $('#callback #phone').val() + "<br>",
+        //             "message": "Сообщение: " + $('#messagearea').val() + "<br>",
+        //             "titlename": "" + $('#name').val() + "",
+        //             "titlelastname": "" + $('#lastname').val() + "",
+        //             "company_name": "Название компании: " + $('#companyname').val() + "<br>",
+        //             "company_size": "Размер компании: " + $("#sizeofcompany").val() + " <br>",
+
+        //             "options": "Опции: <br>" + tarif_options + "",
+        //         }
+
+        //     } //собераем все данные из формы
+        //     $.ajax({
+        //         type: "POST", //Метод отправки
+        //         url: "mail.php", //путь до php фаила отправителя
+        //         data: formData,
+        //         success: function () {
+        //             $('#client_name').text($('#name').val());
+        //             $("#form").css('opacity', '0');
+        //             $('#thanks_you').fadeIn(200);
+        //             //код в этом блоке выполняется при успешной отправке сообщения
+
+        //         }
+        //     });
+        // })
+        $('#bucketlastname').on('blur', function () {
+            $(this).val($(this).val().replace(/[^A-Za-zА-Яа-я\-\s]/g, ''))
+        })
+
+        $('#bucketname').on('blur', function () {
+            $(this).val($(this).val().replace(/[^A-Za-zА-Яа-я\-\s]/g, ''))
+        })
+        $('#bucketsurename').on('blur', function () {
+            $(this).val($(this).val().replace(/[^A-Za-zА-Яа-я\-\s]/g, ''))
+        })
+
+
+
+        $('body').on('click', '.plusbuy button, .plus-item #buybuttontarif2', function () {
+            $('#tarifoptions').css('display', 'flex');
+            $('.costoftarif, .itogo').text("5 000 рублей");
+            $('.tarifname').text('Плюс online');
+            $('#tarrifmodal #ui-id-4').click();
+            $('.learnmore').attr('onclick', 'plusgo()')
+            $('#sale_id').val('176');
+            $('input[name="rate_cost"]').val("5 000");
+        })
+
+        $('.standartbuy button, .standart-item #buybuttontarif1').click(function () {
+            $('#tarifoptions').css('display', 'flex');
+            $('.costoftarif, .itogo').text("3 500 рублей");
+            $('.tarifname').text('Стандарт');
+            $('#tarrifmodal #ui-id-4').click();
+            $('.learnmore').attr('onclick', 'standartgo()');
+            $('#sale_id').val('166');
+            $('input[name="rate_cost"]').val("3 500");
+
+        })
+        $('.plusbuy button, .plus-item #buybuttontarif2').click(function () {
+
+
+        })
+        $('.family-healthbuy  button, .family-health-item #buybuttontarif3').click(function () {
+            $('#tarifoptions').css('display', 'flex');
+            $('.costoftarif, .itogo').text("7 000 рублей");
+            $('.tarifname').text('Семейное здоровье online');
+            $('#tarrifmodal #ui-id-4').click();
+            $('.learnmore').attr('onclick', 'familygo()')
+
+            $('#sale_id').val('177');
+            $('input[name="rate_cost"]').val("7 000");
+        })
+        $('.second-opinionbuy button, .second-opinion-item #buybuttontarif4').click(function () {
+            $('#tarifoptions').css('display', 'flex');
+            $('.costoftarif, .itogo').text("10 000 рублей");
+            $('.tarifname').text('Второе мнение online');
+            $('#tarrifmodal #ui-id-4').click();
+            $('.learnmore').attr('onclick', 'secondgo()')
+            $('#sale_id').val('178');
+            $('input[name="rate_cost"]').val("10 000");
+        })
+        // function standartgo() {
+        //       $('#tarrifmodal #ui-id-1').click();
+        // }
+        function plusgo() {
+            $('#tarrifmodal #ui-id-2').click();
+        }
+
+        function familygo() {
+            $('#tarrifmodal #ui-id-3').click();
+        }
+
+        function secondgo() {
+            $('#tarrifmodal #ui-id-4').click();
+        }
+        $('.languanges').focusout(function () {
+            $('.languanges').hide(100);
+        })
+
+
+        // $('#agreecheck').val("0");
+        function undisableb2b() {
+            var name = $('#name').val();
+            var lastname = $('#lastname').val();
+            var mail = $('#mail').val();
+
+            var phone = $('#callback #phone').val().replace(/[-+_ ()]/g, '');
+            var message = $('#message').val();
+            var company_name = $('#companyname').val();
+            var company_size = $('#sizeofcompany').val();
+            console.log(phone);
+
+            // 
+
+            if ((company_size.length > 1) && (company_name.length > 2) && (phone.length > 10) && (mail.length > 2) && (
+                    $('input[name="agree_checkbox"]:checked').val() != null)) {
+                $('#callback .send').removeAttr('disabled').css('opacity', '1');
+
+            } else {
+                $('#callback .send').attr('disabled', 'disabled').css('opacity', '0.5');
+
+            }
+        }
+
+        function undisableb2c() {
+            var name = $('#name').val();
+            var lastname = $('#lastname').val();
+            var mail = $('#mail').val();
+            var phone = $('#callback #phone').val().replace(/[-+_ ()]/g, '');
+            var message = $('#message').val();
+            console.log(phone);
+
+            // 
+
+            if ((phone.length > 10) && (mail.length > 2) && (name.length > 2) && (lastname.length > 2) && ($(
+                    'input[name="agree_checkbox"]:checked').val() != null)) {
+                $('.send').removeAttr('disabled').css('opacity', '1');
+
+            } else {
+                $('.send').attr('disabled', 'disabled').css('opacity', '0.5');
+
+            }
+        }
+
+
+
+
+        //    $('form').ready(function() {
+
+        //         let rate1 = $("#bucketform").find("#sale_id").val();
+        // console.log(rate1);
+        //         $.post('ExternalSale.php?a=init&rate_id=' + rate1 + '',
+        //             function(data) {
+        //                 console.log('da');
+        //                 console.log(rate1 + data);
+        //                 d = JSON.parse(data);
+        //                 $(".bucketform").find('input[name="token"]').val(d.token);
+        //             });
+        //         $
+
+        //     });
+    </script>
+    <script>
+        /* $('form').ready(function() {
+        
+                $("form").each(function(index, element) {
+                    rate_id = $(element).find('#sale_id').val();
+                    // console.log(rate_id);
+        
+                    $.post('ExternalSale.php?a=init&rate_id=' + rate_id + '', function(data) {\
+                        d = JSON.parse(data);
+        
+        
+                        $(element).find('input[name="token"]').val(d.token);
+        
+                    });
+                })
+                });
+        
+        
+        */
+        $('#callback input, textarea').on('focus', function () {
+            var id = $(this).attr('id');
+            $('label[for="' + id + '"]').css('opacity', '.5');
+        })
+        $('#callback input, textarea').on('focusout', function () {
+            var id = $(this).attr('id');
+            $('label[for="' + id + '"]').css('opacity', '.3');
+        })
+
+
+        $("form").each(function (index, element) {
+            rate_id = $(element).find('#sale_id').val();
+            if (rate_id) {
+                $.post('ExternalSale.php?a=init&rate_id=' + rate_id + '', function (data) {
+                    d = JSON.parse(data);
+
+
+                    $(element).find('input[name="token"]').val(d.token);
+
+                });
+            }
+        })
+        $('body').on('click', '#tabs ul li a, #tabs ul li, .buybutton, #buttonforbuy button ', function () {
+            rate_id = $('form').find('#sale_id').val();
+            if (rate_id) {
+                $.post('ExternalSale.php?a=init&rate_id=' + rate_id + '', function (data) {
+                    d = JSON.parse(data);
+
+
+                    $('form').find('input[name="token"]').val(d.token);
+
+                });
+            }
+        })
+
+        $(function () {
+            var box = $('#navbar'); // float-fixed block
+            console.log(box);
+            var top = box.offset().top - parseFloat(box.css('marginTop').replace(/auto/, 0));
+            $(window).scroll(function () {
+                var windowpos = $(window).scrollTop();
+                if (windowpos < top) {
+                    console.log('top');
+                    box.removeClass('sticky');
+                    $('.block__about').hide();
+                    $('#about').css('padding-top', '0px');
+                    $('#nav__menu').css('margin-bottom', '0');
+                } else {
+                    box.addClass('sticky');
+                    $('#nav__menu').css('margin-bottom', '82px');
+
+
+                }
+            });
+        });
+    </script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-88773380-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function () {
+                try {
+                    w.yaCounter41511959 = new Ya.Metrika({
+                        id: 41511959,
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true,
+                        webvisor: true,
+                        trackHash: true
+                    });
+                } catch (e) {}
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () {
+                    n.parentNode.insertBefore(s, n);
+                };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/41511959" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+    <script>
+        $("#callback #phone, #bucketform input[name='sale[mobile]']").mask("+7(999) 999-9999");
+    </script>
+    <script>
+        function Ru(obj) {
+  
+  obj.value = obj.value.replace(/[^а-яё]/ig,'');
+
+}
+
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2351267395111051');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=2351267395111051&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <script type="text/javascript">
+        $(window).on('scroll', function () {
+            var topMenu = $("#navbar");
+            topMenuHeight = topMenu.outerHeight() + 45;
+            menuItems = topMenu.find("a.nav-link");
+            scrollItems = menuItems.map(function () {
+                var item = $($(this).attr("href"));
+
+                if (item.length) {
+                    return item;
+                }
+            });
+            var fromTop = $(this).scrollTop() + 70 + topMenuHeight;
+
+            var cur = scrollItems.map(function () {
+                if ($(this).offset().top < fromTop)
+
+                    return this;
+            });
+            cur = cur[cur.length - 1];
+
+            var id = cur && cur.length ? cur[0].id : "";
+            menuItems.parent().removeClass("active").end().filter("[href='#" + id + "']").parent().addClass(
+                "active");
+        })
+    </script>
+
+
+
+    </div>
+    <div class="popup__doctor" id="popup__doctor">
+        <div class="popup__container">
+            <div class="popup__doctor__head">
+                <h4 class="popup__doctor__title">
+                    Наши врачи
+                </h4>
+                <span class="popup__doctor__subtitle">
+                    В команду попадает только 1 из 17 специалистов. Важны не только знания, но и искреннее желание
+                    помогать людям и бороться за их здоровье. Лучшие специалисты, со средней оценкой консультации выше
+                    4.8
+                </span>
+            </div>
+            <div class="doctor__block">
+                <div class="doctor__info">
+                    <div class="doctor__image">
+                        <img src="./images1/doctors/melnikov.png" class="doctor__img">
+                    </div>
+                    <div class="doctor__infoText" id="doctor__infoText">
+
+                    </div>
+                </div>
+                <div class="doctor__data">
+                    <span class="doctor__position">
+                        анестезиолог
+                    </span>
+                    <div class="doctor__name">
+                        Маслов Евгений Олегович
+                    </div>
+                </div>
+                <div class="doctor__close"></div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="modalDoctor" id="modalDoctor">
+
+        <div class="doctors__header">
+            <span class="headerspan"> Наши врачи </span>
+            <p class="doctors__description">В команду попадает только 1 из 17 специалистов. Важны не только
+                знания, но и искреннее желание помогать людям и бороться за их здоровье.
+                Лучшие специалисты, со средней оценкой консультации выше 4.8:</p>
+        </div>
+        <div class="owl-carousel-doctors owl-theme">
+            <div class="item">
+                <div class="onlyDoctor melnikov">
+                    <span class="closeModal">×</span>
+                    <div class="infoDoctor">
+                        <div class="photoDoctor">
+                            <img src="images1/doctors/melnikov.png" alt="">
+                        </div>
+                        <div class="textDoctor">
+
+                            Врач - анестезиолог-реаниматолог, трансфузиолог <br><br>
+                            Заведующий отделением дистанционной медицинской помощи <br><br>
+                            Кандидат медицинских наук <br><br>
+                            Стаж работы: 20 лет <br><br>
+                        </div>
+                    </div>
+                    <div class="lightInfoDoctor">
+                        <h6>анестезиолог</h6>
+                        <br>
+                        Мельников Андрей Игоревич
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="onlyDoctor lipai">
+                    <span class="closeModal">×</span>
+                    <div class="infoDoctor">
+                        <div class="photoDoctor">
+                            <img src="images1/doctors/lipai.png" alt="">
+                        </div>
+                        <div class="textDoctor">
+
+                            Врач - нейрохирург <br><br>
+
+                            Кандидат медицинских наук <br><br>
+                            Стаж работы: 32 года <br><br>
+                        </div>
+                    </div>
+                    <div class="lightInfoDoctor">
+                        <h6>нейрохирург</h6>
+                        <br>
+                        Липай Елена Владимировна
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="onlyDoctor birlukova">
+                    <span class="closeModal">×</span>
+                    <div class="infoDoctor">
+                        <div class="photoDoctor">
+                            <img src="images1/doctors/birlukova.png" alt="">
+                        </div>
+                        <div class="textDoctor">
+
+                            Врач - терапевт, кандидат медицинских наук <br><br>
+                            Соавтор научных работ по изучению роли генов ренин-ангиотензиновой системы в развитии
+                            артериальной гипертензии <br> <br>
+                            Кандидат медицинских наук <br><br>
+                            Стаж работы: 20 лет <br><br>
+                        </div>
+                    </div>
+                    <div class="lightInfoDoctor">
+                        <h6>терапевт</h6>
+                        <br>
+                        Бирлюкова Дина Валерьевна
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="onlyDoctor babkina">
+                    <span class="closeModal">×</span>
+                    <div class="infoDoctor">
+                        <div class="photoDoctor">
+                            <img src="images1/doctors/babkina.png" alt="">
+                        </div>
+                        <div class="textDoctor">
+
+                            Врач - терапевт первой квалификационной категории <br><br>
+                            Высшая квалификационная категория <br><br>
+                            Стаж работы: 20 лет <br><br>
+                        </div>
+                    </div>
+                    <div class="lightInfoDoctor">
+                        <h6>терапевт</h6>
+                        <br>
+                        Бабкина Елена Павловна
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="onlyDoctor novikov">
+                    <span class="closeModal">×</span>
+                    <div class="infoDoctor">
+                        <div class="photoDoctor">
+                            <img src="images1/doctors/novikov.png" alt="">
+                        </div>
+                        <div class="textDoctor">
+
+                            Врач скорой медицинской помощи <br><br>
+                            Высшая квалификационная категория <br><br>
+                            Стаж работы: 20 лет <br><br>
+                        </div>
+                    </div>
+                    <div class="lightInfoDoctor">
+                        <h6>терапевт</h6>
+                        <br>
+                        Новиков Александр Викторович
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="onlyDoctor isaeva">
+                    <span class="closeModal">×</span>
+                    <div class="infoDoctor">
+                        <div class="photoDoctor">
+                            <img src="images1/doctors/isaeva.png" alt="">
+                        </div>
+                        <div class="textDoctor">
+
+                            Врач - невролог <br><br>
+                            Кандидат медицинских наук <br><br>
+                            Действующие сертификаты: Неврология, Актуальные вопросы неврологии детского возраста,
+                            Профпатология, Скорая медицинская помощь, Гирудотерапия, Скорая медицинская помощь,
+                            Косметология, Инъекционная косметологияНаграждена грамотой «За добросовестную работу в
+                            здравоохранении Московской области» <br> <br>
+                            Стаж работы: 16 лет <br>
+                        </div>
+                    </div>
+                    <div class="lightInfoDoctor isa">
+                        <h6>невролог</h6>
+                        <br class="sasha__br">
+                        Исаева Рушания Тагировна
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="onlyDoctor romanova">
+                    <span class="closeModal">×</span>
+                    <div class="infoDoctor">
+                        <div class="photoDoctor">
+                            <img src="images1/doctors/romanova.png" alt="">
+                        </div>
+                        <div class="textDoctor">
+
+                            Врач скорой медицинской помощи <br><br>
+                            Высшая квалификационная категория <br><br>
+                            Стаж работы: 30 лет <br><br>
+                        </div>
+                    </div>
+                    <div class="lightInfoDoctor">
+                        <h6>терапевт</h6>
+                        <br>
+                        Романова Лариса Владимировна
+                    </div>
+                </div>
+            </div>
+             <div class="item">
+                <div class="onlyDoctor burgol">
+                    <span class="closeModal">×</span>
+                    <div class="infoDoctor">
+                        <div class="photoDoctor">
+                            <img src="" alt="Фото врача">
+                        </div>
+                        <div class="textDoctor">
+
+                            Врач - педиатр <br><br>
+                            Кандидат медицинских наук <br><br>
+                            Стаж работы: 30 лет <br><br>
+                        </div>
+                    </div>
+                    <div class="lightInfoDoctor">
+                        <h6>педиатр</h6>
+                        <br>
+                        Бургол Мария Михайловна
+                    </div>
+                </div>
+            </div> 
+            <div class="item">
+                <div class="onlyDoctor tepkina">
+                    <span class="closeModal">×</span>
+                    <div class="infoDoctor">
+                        <div class="photoDoctor">
+                            <img src="images1/doctors/tepkina.png" alt="">
+                        </div>
+                        <div class="textDoctor">
+
+                            Врач - педиатр <br><br>
+                            Кандидат медицинских наук <br><br>
+                            Стаж работы: 29 лет <br><br>
+                        </div>
+                    </div>
+                    <div class="lightInfoDoctor">
+                        <h6>педиатр</h6>
+                        <br>
+                        Тепкина Людмила Николаевна
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+</body>
+
+</html>

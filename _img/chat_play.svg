@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.211 14.808">
+    <defs>
+        <style>
+            .cls-1{fill:#b47eb9;stroke:#fff}
+        </style>
+    </defs>
+    <path id="PLAY" d="M11.718 23.022a.432.432 0 0 0 .229-.066L22.3 16.489a.431.431 0 0 0 0-.731L11.947 9.289a.431.431 0 0 0-.66.366v12.936a.432.432 0 0 0 .222.377.44.44 0 0 0 .209.054zm.431-12.589l9.1 5.69-9.1 5.69z" class="cls-1" transform="translate(-10.787 -8.714)"/>
+</svg>

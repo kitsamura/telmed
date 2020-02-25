@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:#383838}.cls-2{fill:none}
+        </style>
+    </defs>
+    <g id="Group_768" data-name="Group 768" transform="translate(-278 -14)">
+        <rect id="Rectangle_795" width="21" height="1" class="cls-1" data-name="Rectangle 795" rx=".5" transform="rotate(-45 187.506 -327.819)"/>
+        <path id="Rectangle_797" d="M0 0h32v32H0z" class="cls-2" data-name="Rectangle 797" transform="translate(278 14)"/>
+        <rect id="Rectangle_823" width="21" height="1" class="cls-1" data-name="Rectangle 823" rx=".5" transform="rotate(-135 158.506 -43.818)"/>
+    </g>
+</svg>

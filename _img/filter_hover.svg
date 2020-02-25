@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_324" data-name="Group 324" transform="translate(-290 -48)">
+    <circle id="Ellipse_17" data-name="Ellipse 17" class="cls-1" cx="2" cy="2" r="2" transform="translate(301 55)"/>
+    <rect id="Rectangle_117" data-name="Rectangle 117" class="cls-1" width="19" height="2" rx="1" transform="translate(290 49)"/>
+    <rect id="Rectangle_118" data-name="Rectangle 118" class="cls-1" width="19" height="2" rx="1" transform="translate(290 56)"/>
+    <rect id="Rectangle_119" data-name="Rectangle 119" class="cls-1" width="19" height="2" rx="1" transform="translate(290 63)"/>
+    <circle id="Ellipse_16" data-name="Ellipse 16" class="cls-1" cx="2" cy="2" r="2" transform="translate(293 48)"/>
+    <circle id="Ellipse_18" data-name="Ellipse 18" class="cls-1" cx="2" cy="2" r="2" transform="translate(296 62)"/>
+  </g>
+</svg>

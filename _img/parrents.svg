@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63.011 93.68">
+    <defs>
+        <style>
+            .cls-1{fill:#b47eb9}.cls-2{fill:#6f6f6f}.cls-3{fill:#fff;stroke:#707070;stroke-width:3px}.cls-4{stroke:none}.cls-5{fill:none}
+        </style>
+    </defs>
+    <g id="родители" transform="translate(.027 -.02)">
+        <path id="Path_806" d="M49.84 50.82a7.62 7.62 0 0 0-13.75 4.53 7.52 7.52 0 0 0 1.55 4.57l11 13.78a1.5 1.5 0 0 0 1.17.56A1.5 1.5 0 0 0 51 73.7l11.29-14.13.09-.12a7.611 7.611 0 0 0-12.54-8.63zm10.75 4.53a4.57 4.57 0 0 1-.7 2.41l-10.05 12.6L40 58.08a4.52 4.52 0 0 1-.92-2.73 4.63 4.63 0 0 1 9.25 0 1.5 1.5 0 0 0 3 0 4.63 4.63 0 0 1 9.25 0z" class="cls-1" data-name="Path 806" transform="translate(-18.35 -3.17)"/>
+        <path id="Path_808" d="M81.19 75.22L60.94 30.4a1.5 1.5 0 0 0-1.37-.88H38.82a1.5 1.5 0 0 0-1.38.92l-19 44.82a1.5 1.5 0 0 0 1.38 2.08h15.65l7 18.53a1.5 1.5 0 0 0 1.4 1h12.89a1.5 1.5 0 0 0 1.42-1l6.08-18.47h15.57a1.5 1.5 0 0 0 1.37-2.12zm-18-.88a1.5 1.5 0 0 0-1.42 1l-6.09 18.49H44.95l-7-18.53a1.5 1.5 0 0 0-1.4-1H22.11l17.7-41.82H58.6l18.9 41.85z" class="cls-2" data-name="Path 808" transform="translate(-18.35 -3.17)"/>
+        <g id="Ellipse_58" class="cls-3" data-name="Ellipse 58" transform="translate(18.973 .02)">
+            <circle cx="11.5" cy="11.5" r="11.5" class="cls-4"/>
+            <circle cx="11.5" cy="11.5" r="10" class="cls-5"/>
+        </g>
+    </g>
+</svg>

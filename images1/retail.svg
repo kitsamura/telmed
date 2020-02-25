@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+    <defs>
+        <style>
+            .cls-1{fill:#eaeaea}.cls-2{fill:none}
+        </style>
+    </defs>
+    <g id="Group_756" data-name="Group 756" transform="translate(-191 -6550)">
+        <circle id="Ellipse_127" cx="14.286" cy="14.286" r="14.286" class="cls-1" data-name="Ellipse 127" transform="translate(243.381 6673.81)"/>
+        <circle id="Ellipse_128" cx="14.286" cy="14.286" r="14.286" class="cls-1" data-name="Ellipse 128" transform="translate(291 6673.81)"/>
+        <path id="Path_2658" d="M1634.256 6560.656l-20.416 65h-84.247l-13-45.268z" class="cls-1" data-name="Path 2658" transform="translate(-1293.01 42.041)"/>
+        <path id="Rectangle_681" d="M0 0h200v200H0z" class="cls-2" data-name="Rectangle 681" transform="translate(191 6550)"/>
+        <path id="Path_2659" d="M27.548 0l25.968 23.231L0 24.811z" class="cls-1" data-name="Path 2659" transform="rotate(108 -2198.682 3428.528)"/>
+    </g>
+</svg>

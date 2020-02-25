@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.385 246.397">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2,.cls-3{fill:#f7f7f7}.cls-2{stroke:#f4f4f4}.cls-3{stroke:#ededed}.cls-4{fill:#ddd}.cls-5{fill:#3cc3b3}.cls-6{stroke:none}.cls-7{fill:none}.cls-8{filter:url(#Rectangle_153)}
+        </style>
+        <filter id="Rectangle_153" width="205.385" height="246.397" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="10.5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_348" data-name="Group 348" transform="translate(-958.307 -3893.802)">
+        <g class="cls-8" transform="translate(958.31 3893.8)">
+            <rect id="Rectangle_153-2" width="162" height="104" class="cls-1" data-name="Rectangle 153" rx="8" transform="rotate(75 47.207 99.821)"/>
+        </g>
+        <g id="Rectangle_154" class="cls-2" data-name="Rectangle 154" transform="rotate(74.99 -2017.66 2672.487)">
+            <rect width="133" height="93" class="cls-6" rx="8"/>
+            <rect width="132" height="92" x=".5" y=".5" class="cls-7" rx="7.5"/>
+        </g>
+        <g id="Ellipse_28" class="cls-3" data-name="Ellipse 28" transform="translate(1073 4073)">
+            <circle cx="7.5" cy="7.5" r="7.5" class="cls-6"/>
+            <circle cx="7.5" cy="7.5" r="7" class="cls-7"/>
+        </g>
+        <g id="Group_309" data-name="Group 309" transform="translate(0 494)">
+            <rect id="Rectangle_155" width="56" height="22" class="cls-4" data-name="Rectangle 155" rx="3" transform="rotate(-14.98 13677.678 -2083.197)"/>
+            <rect id="Rectangle_157" width="56" height="35" class="cls-4" data-name="Rectangle 157" rx="3" transform="rotate(-14.98 13890.114 -2113.224)"/>
+            <rect id="Rectangle_156" width="56" height="22" class="cls-5" data-name="Rectangle 156" rx="3" transform="rotate(-14.98 13766.736 -2202.78)"/>
+            <rect id="Rectangle_158" width="56" height="13" class="cls-5" data-name="Rectangle 158" rx="3" transform="rotate(-14.98 14029.008 -2239.122)"/>
+        </g>
+    </g>
+</svg>
