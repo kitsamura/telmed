@@ -1081,8 +1081,10 @@
         position: relative;
         background: url(../images1/window.png) no-repeat;
         background-size: 920px;
-        background-position-x: 118%;
-        background-position-y: 49%;
+
+        background-position-x: 147%;
+        background-position-y: 42%;
+
         z-index: 0;
     }
 
